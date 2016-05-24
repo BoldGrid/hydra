@@ -1,0 +1,176 @@
+/*------------------------------------------------------------------------
+# Palettes
+------------------------------------------------------------------------*/
+.palette-primary {
+	/*-----------------------------------------------
+	## 1
+	-----------------------------------------------*/
+	.site-header {
+		background: rgba($palette-primary_1, 0.8);
+		color: $text-contrast-palette-primary_1;
+	}
+	.page-bg,
+	.entry-content,
+	.entry-footer,
+	.site-footer,
+	#boldgrid-sticky-push,
+	#boldgrid-sticky-filler,
+	.table-striped td {
+		background: $palette-primary_1;
+		color: $text-contrast-palette-primary_1;
+	}
+	.comments-area .panel-footer,
+	header.smaller {
+		background: $palette-primary_1;
+	}
+	p,
+	.site-info, 
+	.site-info a, 
+	.attribution, 
+	.attribution a {
+		color: $text-contrast-palette-primary_1;
+	}
+	.gridblock hr {
+		background: $text-contrast-palette-primary_1;
+	}
+	.menu-item a,
+	.navbar-default .navbar-nav > li > a {
+		color: $text-contrast-palette-primary_1;
+	}
+	.navbar-default .navbar-nav > li.dropdown:hover > a,
+	.dropdown .active, ul.dropdown-menu {
+		background: $palette-primary_1;
+		color: $text-contrast-palette-primary_1;
+	}
+
+	/*-----------------------------------------------
+	## 2
+	-----------------------------------------------*/
+	.button-primary,
+	input[type="submit"],
+	.form-submit .submit {
+		border-color: $palette-primary_2;
+	    color: $palette-primary_2;
+	}
+	.button-primary:hover, 
+	.button-primary:focus, 
+	.button-primary:active,
+	input[type="submit"]:hover, 
+	input[type="submit"]:focus, 
+	.form-submit .submit:hover,
+	.form-submit .submit:focus {
+		background-color: $palette-primary_2;
+	    color: $text-contrast-palette-primary_2;
+	}
+	.gridblock ul li:before {
+	    background-color: $palette-primary_2;
+	}
+
+	.navbar-default .navbar-toggle {
+		border-color: $palette-primary_2;
+		.icon-bar {
+			background-color: $palette-primary_2
+		}
+	}
+
+	.navbar-default .navbar-nav {
+		> {
+			.current-menu-parent > a {
+				color: $palette-primary_2;
+			}
+			.active > a {
+				color: $palette-primary_2;
+				background: none;
+				&:hover, &:focus {
+					color: $palette-primary_2;
+					background: none;
+				}
+			}
+			li > a {
+				&:hover, &:focus {
+					color: $palette-primary_2;
+					background: none;
+				}
+			}
+		}
+		.dropdown .dropdown-menu > {
+			.active > a {
+				background: $palette-primary_2;
+				color: $text-contrast-palette-primary_2;
+				&:hover, &:focus {
+					background: $palette-primary_2;
+					color: $text-contrast-palette-primary_2;
+				}
+			}
+			li > a {
+				&:hover, &:focus {
+					background: $palette-primary_2;
+					color: $text-contrast-palette-primary_2;
+				}
+			}
+		}
+	}
+	a,
+	#menu-social a[href]:hover,
+	#menu-social li.current_page_item a,
+	#colophon li.current_page_item a,
+	.menu-social li .fa,
+	.entry-footer a,
+	.entry-title,
+	.mod-alpha h3,
+	.widget.well a,
+	caption {
+		color: $palette-primary_2;
+	}
+	#secondary-menu,
+	#tertiary-menu {
+		background: rgba($palette-primary_2, 0.8);
+	}
+	#menu-social a,
+	#secondary-menu a, 
+	#tertiary-menu a {
+		color: $text-contrast-palette-primary_2;
+	}
+	.mod-blockquote {
+		border-left: 6px solid $palette-primary_2;
+	}
+
+	/*-----------------------------------------------
+	## 3
+	-----------------------------------------------*/
+	hr {
+		background: $palette-primary_3;
+		border: none;
+		height: 1px;
+	}
+	#secondary-menu a[href]:hover,
+	#secondary-menu li.current_page_item a,
+	#tertiary-menu a[href]:hover,
+	#tertiary-menu li.current_page_item a,
+	.entry-content ul li,
+	.navbar-nav > li > a,
+	h2,
+	h3,
+	.widget-title {
+		color: $palette-primary_3;	
+	}
+	#footer-widget-area {
+		border-top: 1px solid $palette-primary_3;
+	}
+
+	/*-----------------------------------------------
+	## 1 - Site Title & Social Icons
+	-----------------------------------------------*/
+	.site-title a,
+	.site-description,
+	.menu-social li:hover .fa,
+	.menu-social li:focus .fa {
+		color: $text-contrast-palette-primary_1;
+	}
+}
+.palette-primary.mce-content-body {
+	background: $palette-primary_1;
+	color: $text-contrast-palette-primary_1;
+}
+
+

@@ -56,9 +56,6 @@ body,
   	-o-background-size: cover;
   	background-size: cover;
 }
-.page-bg {
-	background: #fff;
-}
 
 /*-----------------------------------------------
 ## Positioning
@@ -68,13 +65,6 @@ body,
 	margin-top: 12%;
 	padding-bottom: 25px;	
 	padding-top: 25px;
-}
-.xs-center,
-.mod-img,
-.mod-img-circle,
-.p-button-primary,
-.p-button-secondary {
-	text-align: center;
 }
 
 /* sm */
@@ -89,6 +79,161 @@ body,
 	.page-bg {
 		margin-top: 12%;
 	}
+}
+
+/*-----------------------------------------------
+## Typography
+-----------------------------------------------*/
+.xs-center,
+.mod-img,
+.mod-img-circle,
+.p-button-primary,
+.p-button-secondary {
+	text-align: center;
+}
+h3 {
+    font-weight: 300;
+}
+p {
+	line-height: 28px;
+}
+.icon,
+.heading p {
+	text-align: center;	
+}
+.entry-title {
+    font-weight: 500;
+    text-align: center;
+}
+.archive .entry-title {
+	text-align: left;
+}
+a,
+.link-primary,
+.link-secondary {
+    text-decoration: none;
+}
+a:hover,
+a:focus {
+    text-decoration: underline;
+}
+.button-primary,
+.button-secondary,
+input[type="submit"] {
+	font-family: "Oswald";
+	font-size: 16px;
+	font-weight: 400;
+}
+.button-primary:hover, 
+.button-primary:focus, 
+.button-primary:active, 
+.open > .dropdown-toggle.btn-primary,
+input[type="submit"]:hover,
+input[type="submit"]:focus {
+	text-decoration: none;
+}
+.button-secondary:hover,
+.button-secondary:active {
+	text-decoration: none;
+}
+.p-button-primary,
+.p-button-secondary {
+	white-space: nowrap;
+}
+.call-to-action .button-primary {
+	font-weight: 400;
+}
+.site-title {
+	font-weight: normal;
+}
+.call-to-action {
+	text-align: center;
+}
+.site-title {
+    text-align: center;	
+}
+.site-description {
+    text-align: center;
+}
+.menu-social,
+.navbar-nav > li > a {
+	text-align: center;
+}
+#secondary-menu,
+#tertiary-menu {
+	text-align: center;
+}
+.menu-social {
+	text-align: center;	
+}
+#menu-social li a {
+	text-align: right;
+	-webkit-font-smoothing: antialiased;
+}
+.mod-blockquote p {
+	font-weight: 100;
+	line-height: 40px;
+}
+.mod-alpha h2 {
+	font-weight: 300;
+	line-height: normal;
+}
+.mod-beta h2 {
+	font-weight: 700;
+}
+.widget-title, 
+.page-title {
+    text-transform: uppercase;
+}
+.comment-reply-title,
+.comments-title {
+    text-transform: uppercase;
+}
+.form-submit .submit {
+	text-transform: uppercase;
+}
+.woocommerce p.buttons a.button:hover {
+    text-decoration: none;
+}
+.site-footer {
+	text-align: center;
+}
+.menu-item-object-page {
+	text-align: left;
+}
+.cat-item {
+	text-align: left;
+}
+#footer-widget-area {
+	text-align: left;
+}
+.site-footer a {
+	text-decoration: underline;
+}
+.site-footer a:hover,
+.site-footer a:focus {
+	text-decoration: none;
+}
+
+/* sm */
+@media (min-width: 768px) {
+	.site-title {
+		text-align: left;	
+	}
+	.site-description {
+		text-align: left;
+	}
+	.menu-social {
+    	text-align: right;
+	}
+	.menu-social,
+	.navbar-nav > li > a {
+		text-align: right;
+	}
+}
+
+/* md */
+@media (min-width: 992px) {
 	.xs-center,
 	.mod-img,
 	.mod-img-circle,
@@ -96,45 +241,12 @@ body,
 	.gridblock .p-button-secondary {
 		text-align: left;
 	}
-}
-
-/*-----------------------------------------------
-## Typography
------------------------------------------------*/
-body {
-	color: #3e3e3e;	
-	font-family: 'Open Sans';
-}
-h1, h2, h3, h4, h5, h6 {
-	font-family: 'Oswald';
-}
-h1 {
-    font-size: 36px;
-}
-h2 {
-    font-size: 30px;
-}
-h3 {
-    font-size: 24px;
-    font-weight: 300;
-}
-h4 {
-    font-size: 18px;
-}
-h5 {
-    font-size: 14px;
-}
-h6 {
-    font-size: 12px;
-}
-p {
-	line-height: 28px;
-}
-.entry-content ul, 
-.entry-content ol {
-	font-family: "Open Sans";
-	font-size: 14px;
-	line-height: 28px;
+	.single .entry-title {
+		text-align: left;
+	}
+	.menu-social {
+		text-align: right;	
+	}
 }
 
 /*-----------------------------------------------
@@ -154,38 +266,25 @@ p {
 .heading {
     margin-bottom: 15px;
 }
-.icon,
-.heading p {
-	text-align: center;	
-}
 
 /* xs */
 .entry-title {
-    font-family: "Open Sans";
-    font-size: 36px;
-    font-weight: 500;
     padding-bottom: 1.5em;
-    text-align: center;
 }
 .archive .entry-title {
-	font-size: 30px;
 	margin-top: 0;
 	padding-bottom: 15px;
 	padding-top: 25px;
-	text-align: left;
 	text-shadow: none;
 }
 
 /* sm */
 @media (min-width: 768px) {
 	.entry-title {
-		color: #fff !important;
 		margin-top: -185px;
 		padding-bottom: 3em;
 		padding-top: 1em;
-		text-shadow: 1px 2px 3px #000;
 	}
-
 }
 
 /* md */
@@ -196,24 +295,11 @@ p {
 		padding-bottom: 2.5em;
 		padding-top: 1.5em;
 	}
-	.single .entry-title {
-		text-align: left;
-	}
 }
 
 /*-----------------------------------------------
 ## Links
 -----------------------------------------------*/
-a,
-.link-primary,
-.link-secondary {
-    color: #1bbc9b;
-    text-decoration: none;
-}
-a:hover,
-a:focus {
-    text-decoration: underline;
-}
 
 /*-----------------------------------------------
 ## Buttons
@@ -222,50 +308,15 @@ a:focus {
 .button-secondary,
 input[type="submit"] {
 	background: none;
-	font-family: 'Oswald';
-	font-size: 17px;
-	font-weight: 400;
 	margin: 10px 0;
 	padding: 10px 25px;	
 	transition: all 0.5s ease 0s;
-}
-.button-primary,
-input[type="submit"] {
-	border: 1px solid #1bbc9b;
-	color: #1bbc9b;
-}
-.button-secondary {
-	border: 1px solid #3e3e3e;
-	color: #3e3e3e;
-}
-.navbar-default .navbar-nav .dropdown-menu {
-	font-family: 'Oswald';
-	font-size: 12px;
-	text-transform: uppercase;
-}
-.button-primary:hover, 
-.button-primary:focus, 
-.button-primary:active, 
-.open > .dropdown-toggle.btn-primary,
-input[type="submit"]:hover,
-input[type="submit"]:focus {
-    background-color: #1bbc9b;
-    border-color: #1bbc9b;
-	color: #fff;
-	text-decoration: none;
-}
-.button-secondary:hover,
-.button-secondary:active {
-	background-color: #3e3e3e;
-	color: #fff;
-	text-decoration: none;
 }
 
 /* Positioning */
 .p-button-primary,
 .p-button-secondary {
 	margin: 30px 0;
-	white-space: nowrap;
 }
 .gridblock .p-button-secondary {
 	margin: 0;
@@ -273,12 +324,6 @@ input[type="submit"]:focus {
 
 /* Call to Action */
 .call-to-action .button-primary {
-	background: #fff;
-	border-color: #fff;
-	color: #1bbc9b;
-	font-family: 'Oswald';
-	font-size: 17px;
-	font-weight: 400;
 	margin: 25px 0 0;
 	padding: 20px 25px;
 	transition: all .5s;
@@ -307,7 +352,6 @@ input[type="submit"]:focus {
 ## Et Cetera
 -----------------------------------------------*/
 hr {
-	border: 1px solid #dee0e0;
 	margin: 65px 0 50px;	
 }
 
@@ -316,15 +360,9 @@ hr {
 ------------------------------------------------------------------------*/
 /* Sticky Header Scroll */
 header.site-header {
- 	background: rgba(255, 255, 255, .80);
 	z-index: 999;
-	/* Box Shadow */
- 	-webkit-box-shadow: 0 3px 8px 2px rgba(38, 38, 38, 0.5);
-	-moz-box-shadow: 0 3px 8px 2px rgba(38, 38, 38, 0.5);
- 	box-shadow: 0 3px 8px 2px rgba(38, 38, 38, 0.5);
 }
 header.smaller {
-	background: #fff;
 	/* Transition */
 	-webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -333,17 +371,8 @@ header.smaller {
     transition: all 0.3s;
 }
 
-/* Site Title */
-.site-title {
-	font-weight: normal;
-}
-.site-title a {
-	color: #3e3e3e;
-}
-
 /* Call to Action */
 .call-to-action {
-	text-align: center;
 	margin-bottom: 40px;
 	padding-top: 60px;
 }
@@ -360,15 +389,11 @@ header.smaller {
 /* xs */
 .site-title {
 	padding-top: 20px;
-    text-align: center;	
 }
 .site-description {
-   	font-family: "Oswald";
-    font-size: 20px;
     margin-left: 2px;
     margin-top: -20px;
     padding-top: 10px;
-    text-align: center;
 }
 
 
@@ -378,10 +403,6 @@ header.smaller {
 		margin-bottom: 5px;
     	padding-bottom: 0;
 		padding-top: 0;
-		text-align: left;	
-	}
-	.site-description {
-		text-align: left;
 	}
 	
 	/* Sticky Header Scroll */
@@ -396,7 +417,6 @@ header.smaller {
  		height: 45px;
  	}
 	header.smaller {
-		background: #fff;
 		padding-bottom: 0;
 	}
 	header.smaller .classie-spacer {
@@ -413,11 +433,6 @@ header.smaller {
 	.call-to-action {
 		padding-top: 130px;
 	}
-	
-	/* Social Media */
-	.menu-social {
-    	text-align: right;
-	}
 }
 
 /* md */
@@ -425,7 +440,6 @@ header.smaller {
 	.menu-social {
 		margin-top: 8px;
 		padding: 15px 0 0;
-		text-align: right;	
 	}
 	.navbar-nav li.menu-social {
 		margin-top: 0;
@@ -448,12 +462,6 @@ header.smaller {
 	border: none;
 	padding-right: 0;
 }
-.navbar-default .navbar-nav > li > a {
-	color: #666;
-	font-family: 'Oswald';
-	font-size: 12px;
-	text-transform: uppercase;    
-}
 .navbar-nav > li > a {
     padding: 12px 10px;
 }
@@ -461,16 +469,10 @@ header.smaller {
 .navbar-default .navbar-nav > .active > a:hover, 
 .navbar-default .navbar-nav > .active > a:focus {
 	background: none;
-	color: #1bbc9b;
 }
 .navbar-default .navbar-nav > li > a:hover, 
 .navbar-default .navbar-nav > li > a:focus {
 	background: none;
-	color: #1bbc9b;
-}
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-    background-color: #fff;
 }
 
 /* Dropdown */
@@ -479,21 +481,10 @@ header.smaller {
 }
 .dropdown-menu {
 	border: none;
-	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.176);
-}
-
-/* xs */
-.menu-social,
-.navbar-nav > li > a {
-	text-align: center;
 }
 
 /* sm */
 @media (min-width: 768px) {
-	.menu-social,
-	.navbar-nav > li > a {
-		text-align: right;
-	}
 	#primary-navbar {
 		padding-right: 0;	
 	}
@@ -511,21 +502,8 @@ header.smaller {
 #secondary-menu a,
 #tertiary-menu a,
 #menu-social a {
-	color: #3e3e3e;
-	font-family: "Oswald";
-    font-size: 11px;
 	padding: 0 5px;
-    text-transform: uppercase;
 }
-#secondary-menu,
-#tertiary-menu {
-    background: rgba(27, 188, 155, 0.75);
-	text-align: center;
-}
-#secondary-menu a[href]:hover,
-#tertiary-menu a[href]:hover {
-    color: #3e3e3e;
-} 
 .boldgrid-framework-menu li::after {
 	content: none;
 }
@@ -535,7 +513,6 @@ header.smaller {
 -----------------------------------------------*/
 .menu-social {
 	padding: 0;
-	text-align: center;	
 }
 .menu-social ul {
 	padding-left: 0;
@@ -554,19 +531,6 @@ header.smaller {
 }
 #menu-social li a {
 	display: inline-block;
-	text-align: right;
-	color: #666;
-	-webkit-font-smoothing: antialiased;
-}
-#menu-social li a:hover {
-	color: #1bbc9b;
-}
-
-/* sm */
-@media (min-width: 768px) {
-	.menu-social {
-		text-align: right;	
-	}
 }
 
 /*------------------------------------------------------------------------
@@ -592,9 +556,6 @@ header.smaller {
 /*-----------------------------------------------
 ## Alternates
 -----------------------------------------------*/
-.gridblock .font-alt {
-	font-family: 'Oswald';
-}
 .gridblock ul {
 	list-style-type: none;
 	padding-left: 26px;
@@ -605,7 +566,6 @@ header.smaller {
     -webkit-background-clip: padding-box;
     -webkit-border-radius: 3px;
     background-clip: padding-box;
-    background-color: #1bbc9b;
     border-radius: 3px;
     content: '';
     display: inline-block;
@@ -615,7 +575,6 @@ header.smaller {
     width: 6px;
 }
 .gridblock hr {
-	background: #3e3e3e;
 	border: 0;
 	height: 1px;
 	margin-top: 10px;
@@ -672,14 +631,7 @@ header.smaller {
 ## Global
 -----------------------------------------------*/
 .mod-blockquote {
-	border-left: 6px solid #1bbc9b;
 	padding: 0 20px;
-}
-.mod-blockquote p {
-	font-family: "Oswald";
-	font-size: 30px;
-	font-weight: 100;
-	line-height: 40px;
 }
 
 /*-----------------------------------------------
@@ -693,29 +645,10 @@ header.smaller {
 	padding-top: 50px;
 	width: 80%;
 }
-.mod-alpha h2 {
-	font-family: 'Oswald';
-	font-size: 36px;
-	font-weight: 300;
-	line-height: normal;
-	text-align: center;
-}
-.mod-alpha h3 {
-	color: #1bbc9b;
-	font-family: 'Oswald';
-	font-size: 26px;
-	text-align: center;		
-}
 
 /*-----------------------------------------------
 ## Beta
 -----------------------------------------------*/
-.mod-beta h2 {
-	color: #3e3e3e;
-	font-family: 'Oswald';
-	font-size: 18px;
-	font-weight: 700;
-}
 
 /*------------------------------------------------------------------------
 # Pages
@@ -735,35 +668,16 @@ header.smaller {
 /*------------------------------------------------------------------------
 # Posts
 ------------------------------------------------------------------------*/
-.widget-title, 
-.page-title {
-    font-family: 'Oswald';
-    font-size: 18px;
-    text-transform: uppercase;
-}
 .widget-area {
-    border: 1px solid #ccc;
 	margin-top: 25px;
     padding: 25px;
     list-style:none;
 }
 
 /* Comments */
-.comment-reply-title,
-.comments-title {
-    font-family: 'Oswald';
-    font-size: 24px;
-    text-transform: uppercase;
-}
 .comment-form-comment label {
     float: left;
     padding-right: 15px;
-}
-.comments-area .comment-content p {
-	color: #333;
-}
-.color1-text-contrast {
-	color: #333;
 }
 .panel-footer {
     padding: 25px 15px;
@@ -777,24 +691,13 @@ header.smaller {
 /* Buttons */
 .form-submit .submit {
 	background: none;
-	border: 1px solid #1bbc9b;
-	color: #1bbc9b;
-	font-family: 'Oswald';
-	font-weight: 300px;
 	margin: 25px 0 0;
 	padding: 20px 25px;
-	text-transform: uppercase;
 	transition: all .5s;
 	/* Border Radius */
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;	
-}
-.form-submit .submit:hover,
-.form-submit .submit:focus {
-	background-color: #1bbc9b;
-    border-color: #1bbc9b;
-	color: #fff;
 }
 
 /*------------------------------------------------------------------------
@@ -807,65 +710,32 @@ header.smaller {
 .woocommerce .page-title {
 	margin: 0;	
 }
-.woocommerce #respond input#submit, 
-.woocommerce a.button,
-.woocommerce button.button, 
-.woocommerce input.button,
-.woocommerce p.buttons a.button {
-    background-color: #a46497;
-    color: #fff;
-}
 .woocommerce p.buttons a.button:hover {
-	background-color: #dad8da;
     background-image: none;
-    color: #515151;
-    text-decoration: none;
 }
 
 /*------------------------------------------------------------------------
 # Footer
 ------------------------------------------------------------------------*/
 .site-footer {
-	background: #fff;
 	padding-bottom: 30px;
-	text-align: center;
 }
 .menu-item-object-page {
 	list-style: none;
-	text-align: left;
 }
 .cat-item {
 	list-style: none;
-	text-align: left;
 }
 #footer-widget-area {
-	border-top: 1px solid #dee0e0;
 	padding-top: 15px;	
-	text-align: left;
 }
 .attribution {
 	margin-top: 0;
-}
-.site-info,
-.site-info a,
-.attribution,
-.attribution a {
-	color: #666;
-}
-.site-footer a {
-	text-decoration: underline;
-}
-.site-footer a:hover,
-.site-footer a:focus {
-	text-decoration: none;
 }
 
 /* Footer Widgets */
 ul#footer-center-items {
 	padding: 0;	
-}
-.widget.well a {
-	color: #1bbc9b;
 }
 
 /** Sticky Footer **/

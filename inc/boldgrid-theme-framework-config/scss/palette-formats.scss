@@ -1,12 +1,18 @@
 /*------------------------------------------------------------------------
+# Variables
+------------------------------------------------------------------------*/
+$rgba_1 : rgba($palette-primary_1, 0.80);
+
+/*------------------------------------------------------------------------
 # Palettes
 ------------------------------------------------------------------------*/
 .palette-primary {
+
 	/*-----------------------------------------------
 	## 1
 	-----------------------------------------------*/
 	.site-header {
-		background: rgba($palette-primary_1, 0.8);
+		background: $rgba_1;
 		color: $text-contrast-palette-primary_1;
 	}
 	.page-bg,
@@ -19,21 +25,25 @@
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
-	.comments-area .panel-footer,
-	header.smaller {
+	.comments-area .panel-footer {
 		background: $palette-primary_1;
 	}
 	p,
 	.site-info, 
 	.site-info a, 
 	.attribution, 
-	.attribution a {
+	.attribution a,
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus,
+	.comments-area .comment-content p
+	 {
 		color: $text-contrast-palette-primary_1;
 	}
 	.gridblock hr {
 		background: $text-contrast-palette-primary_1;
 	}
 	.menu-item a,
+	#menu-social li a,
 	.navbar-default .navbar-nav > li > a {
 		color: $text-contrast-palette-primary_1;
 	}
@@ -42,6 +52,19 @@
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
+	.widget-area {
+	    border: 1px solid $text-contrast-palette-primary_1;
+	}
+	hr {
+		border-color: $text-contrast-palette-primary_1;
+	}
+
+	/* sm */
+	@media (min-width: 768px) {
+		header.smaller {
+			background: $palette-primary_1;
+		}
+	}
 
 	/*-----------------------------------------------
 	## 2
@@ -49,7 +72,7 @@
 	.button-primary,
 	input[type="submit"],
 	.form-submit .submit {
-		border-color: $palette-primary_2;
+		border: 1px solid $palette-primary_2;
 	    color: $palette-primary_2;
 	}
 	.button-primary:hover, 
@@ -58,9 +81,22 @@
 	input[type="submit"]:hover, 
 	input[type="submit"]:focus, 
 	.form-submit .submit:hover,
-	.form-submit .submit:focus {
+	.form-submit .submit:focus,
+	.open > .dropdown-toggle.btn-primary {
 		background-color: $palette-primary_2;
+		border-color: $palette-primary_2;
 	    color: $text-contrast-palette-primary_2;
+	}
+	.call-to-action .button-primary {
+		background: $palette-primary_1;
+		border-color: $palette-primary_2;
+		color: $palette-primary_2;
+	}
+	.call-to-action .button-primary:hover,
+	.call-to-action .button-primary:focus {
+		background: $palette-primary_2;
+		border-color: $palette-primary_2;
+		color: $text-contrast-palette-primary_2;
 	}
 	.gridblock ul li:before {
 	    background-color: $palette-primary_2;
@@ -116,10 +152,17 @@
 	#colophon li.current_page_item a,
 	.menu-social li .fa,
 	.entry-footer a,
-	.entry-title,
 	.mod-alpha h3,
 	.widget.well a,
-	caption {
+	caption,
+	.link-primary,
+	.link-secondary,
+	#menu-social li a:hover,
+	.navbar-default .navbar-nav > .active > a, 
+	.navbar-default .navbar-nav > .active > a:hover, 
+	.navbar-default .navbar-nav > .active > a:focus,
+	.navbar-default .navbar-nav > li > a:hover, 
+	.navbar-default .navbar-nav > li > a:focus {
 		color: $palette-primary_2;
 	}
 	#secondary-menu,
@@ -138,24 +181,28 @@
 	/*-----------------------------------------------
 	## 3
 	-----------------------------------------------*/
-	hr {
-		background: $palette-primary_3;
-		border: none;
-		height: 1px;
-	}
 	#secondary-menu a[href]:hover,
 	#secondary-menu li.current_page_item a,
 	#tertiary-menu a[href]:hover,
 	#tertiary-menu li.current_page_item a,
 	.entry-content ul li,
-	.navbar-nav > li > a,
 	h2,
 	h3,
-	.widget-title {
+	.widget-title,
+	.mod-beta h2 {
 		color: $palette-primary_3;	
 	}
 	#footer-widget-area {
 		border-top: 1px solid $palette-primary_3;
+	}
+	.button-secondary {
+		border: 1px solid $palette-primary_3;
+		color:$palette-primary_3;
+	}
+	.button-secondary:hover,
+	.button-secondary:active {
+		background-color: $palette-primary_3;
+		color: $text-contrast-palette-primary_3;
 	}
 
 	/*-----------------------------------------------
@@ -167,10 +214,44 @@
 	.menu-social li:focus .fa {
 		color: $text-contrast-palette-primary_1;
 	}
+
+	/*-----------------------------------------------
+	# Et Cetera
+	-----------------------------------------------*/
+	.entry-title {
+		color: #fff;
+		text-shadow: 0.1em 0.1em 0.05em #333;
+	}
+	.site-header {
+		/* Box Shadow */
+	 	-webkit-box-shadow: 0 3px 8px 2px rgba(38, 38, 38, 0.5);
+		-moz-box-shadow: 0 3px 8px 2px rgba(38, 38, 38, 0.5);
+	 	box-shadow: 0 3px 8px 2px rgba(38, 38, 38, 0.5);
+	}
+	.dropdown-menu {
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.176);
+	}
+	#secondary-menu,
+	#tertiary-menu {
+	    background: rgba(27, 188, 155, 0.75);
+	}
+	.woocommerce #respond input#submit, 
+	.woocommerce a.button,
+	.woocommerce button.button, 
+	.woocommerce input.button,
+	.woocommerce p.buttons a.button {
+	    background-color: #a46497;
+	    color: #fff;
+	}
+	.woocommerce p.buttons a.button:hover {
+		background-color: #dad8da;
+	    color: #515151;
+	}
+	#footer-widget-area {
+		border-top: 1px solid #dee0e0;
+	}
 }
 .palette-primary.mce-content-body {
 	background: $palette-primary_1;
 	color: $text-contrast-palette-primary_1;
 }
-
-

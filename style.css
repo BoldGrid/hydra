@@ -52,10 +52,10 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 -----------------------------------------------*/
 body,
 .custom-background {
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 /*-----------------------------------------------
@@ -64,7 +64,7 @@ body,
 /* xs */
 .page-bg {
 	margin-top: 12%;
-	padding-bottom: 25px;	
+	padding-bottom: 25px;
 	padding-top: 25px;
 }
 
@@ -93,14 +93,14 @@ body,
 	text-align: center;
 }
 h3 {
-    font-weight: 300;
+	font-weight: 300;
 }
 p {
 	line-height: 28px;
 }
 .icon,
 .heading p {
-	text-align: center;	
+	text-align: center;
 }
 .entry-title {
     font-weight: 500;
@@ -125,9 +125,9 @@ input[type="submit"] {
 	font-size: 16px;
 	font-weight: 400;
 }
-.button-primary:hover, 
-.button-primary:focus, 
-.button-primary:active, 
+.button-primary:hover,
+.button-primary:focus,
+.button-primary:active,
 .open > .dropdown-toggle.btn-primary,
 input[type="submit"]:hover,
 input[type="submit"]:focus {
@@ -151,7 +151,7 @@ input[type="submit"]:focus {
 	text-align: center;
 }
 .site-title {
-    text-align: center;	
+    text-align: center;
 }
 .site-description {
     text-align: center;
@@ -165,7 +165,7 @@ input[type="submit"]:focus {
 	text-align: center;
 }
 .menu-social {
-	text-align: center;	
+	text-align: center;
 }
 #menu-social li a {
 	text-align: right;
@@ -182,7 +182,7 @@ input[type="submit"]:focus {
 .mod-beta h2 {
 	font-weight: 700;
 }
-.widget-title, 
+.widget-title,
 .page-title {
     text-transform: uppercase;
 }
@@ -219,7 +219,7 @@ input[type="submit"]:focus {
 /* sm */
 @media (min-width: 768px) {
 	.site-title {
-		text-align: left;	
+		text-align: left;
 	}
 	.site-description {
 		text-align: left;
@@ -246,18 +246,18 @@ input[type="submit"]:focus {
 		text-align: left;
 	}
 	.menu-social {
-		text-align: right;	
+		text-align: right;
 	}
 }
 
 /*-----------------------------------------------
 ## Titles
 -----------------------------------------------*/
-.page-template-page_home .entry-title {
-    display: none;    
+.page-template-home .entry-title {
+    display: none;
 }
 .hentry {
-	margin: 0 auto;	
+	margin: 0 auto;
 }
 
 /* Headings */
@@ -310,7 +310,7 @@ input[type="submit"]:focus {
 input[type="submit"] {
 	background: none;
 	margin: 10px 0;
-	padding: 10px 25px;	
+	padding: 10px 25px;
 	transition: all 0.5s ease 0s;
 }
 
@@ -353,7 +353,7 @@ input[type="submit"] {
 ## Et Cetera
 -----------------------------------------------*/
 hr {
-	margin: 65px 0 50px;	
+	margin: 65px 0 50px;
 }
 
 /*------------------------------------------------------------------------
@@ -378,13 +378,9 @@ header.smaller {
 	padding-top: 60px;
 }
 
-.page-template-default .call-to-action {
-	display: none;	
-}
-
 /* Header Title */
-.page-template-page_home .header-title {
-	display: none;	
+.page-template-home .header-title {
+	display: none;
 }
 
 /* xs */
@@ -405,7 +401,7 @@ header.smaller {
     	padding-bottom: 0;
 		padding-top: 0;
 	}
-	
+
 	/* Sticky Header Scroll */
 	.site-header {
 		left: 0;
@@ -429,7 +425,7 @@ header.smaller {
 	.page header.smaller .social-media {
 		padding-top: 20px;
 	}
-	
+
 	/* Call to Action */
 	.call-to-action {
 		padding-top: 130px;
@@ -456,7 +452,7 @@ header.smaller {
 -----------------------------------------------*/
 .navbar {
 	margin-bottom: 0;
-	margin-top: -10px;	
+	margin-top: -10px;
 }
 .navbar-default {
 	background: none;
@@ -466,12 +462,12 @@ header.smaller {
 .navbar-nav > li > a {
     padding: 12px 10px;
 }
-.navbar-default .navbar-nav > .active > a, 
-.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
 	background: none;
 }
-.navbar-default .navbar-nav > li > a:hover, 
+.navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	background: none;
 }
@@ -487,13 +483,13 @@ header.smaller {
 /* sm */
 @media (min-width: 768px) {
 	#primary-navbar {
-		padding-right: 0;	
+		padding-right: 0;
 	}
 	.navbar-default {
-		float: right;	
+		float: right;
 	}
 	.navbar-nav {
-    	float: right;	
+    	float: right;
 	}
 }
 
@@ -528,7 +524,7 @@ header.smaller {
 }
 #menu-social ul li {
     position: relative;
-    display:  inline-block;    
+    display:  inline-block;
 }
 #menu-social li a {
 	display: inline-block;
@@ -541,14 +537,14 @@ header.smaller {
 /*-----------------------------------------------
 ## Positioning
 -----------------------------------------------*/
-.gridblock h1, 
-.gridblock h2, 
-.gridblock h3, 
-.gridblock h4, 
-.gridblock h5, 
+.gridblock h1,
+.gridblock h2,
+.gridblock h3,
+.gridblock h4,
+.gridblock h5,
 .gridblock h6,
-.gridblock ol, 
-.gridblock ul, 
+.gridblock ol,
+.gridblock ul,
 .gridblock li,
 .gridblock p {
 	margin: 10px 0;
@@ -622,7 +618,7 @@ header.smaller {
 .image-gallery img,
 .video-gallery img,
 .slideshow-gallery img {
-	margin-bottom: 15px;	
+	margin-bottom: 15px;
 }
 .mod-img-circle img {
 	border-radius: 50%;
@@ -640,7 +636,7 @@ header.smaller {
 -----------------------------------------------*/
 .mod-alpha {
 	background: url('images/quote.png') no-repeat;
-	background-position: left;	
+	background-position: left;
 	height: 100%;
 	margin: 0 auto;
 	padding-top: 50px;
@@ -686,7 +682,7 @@ header.smaller {
 
 /* Call to Action */
 .single .call-to-action {
-	display: none;	
+	display: none;
 }
 
 /* Buttons */
@@ -698,7 +694,7 @@ header.smaller {
 	/* Border Radius */
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
-	border-radius: 0;	
+	border-radius: 0;
 }
 
 /*------------------------------------------------------------------------
@@ -709,7 +705,7 @@ header.smaller {
 ## WooCommerce
 -----------------------------------------------*/
 .woocommerce .page-title {
-	margin: 0;	
+	margin: 0;
 }
 .woocommerce p.buttons a.button:hover {
     background-image: none;
@@ -728,7 +724,7 @@ header.smaller {
 	list-style: none;
 }
 #footer-widget-area {
-	padding-top: 15px;	
+	padding-top: 15px;
 }
 .attribution {
 	margin-top: 0;
@@ -736,7 +732,7 @@ header.smaller {
 
 /* Footer Widgets */
 ul#footer-center-items {
-	padding: 0;	
+	padding: 0;
 }
 
 /** Sticky Footer **/

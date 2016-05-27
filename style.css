@@ -360,7 +360,7 @@ hr {
 # Header
 ------------------------------------------------------------------------*/
 /* Sticky Header Scroll */
-header.site-header {
+.site-header {
 	z-index: 999;
 }
 header.smaller {

@@ -103,8 +103,8 @@ p {
 	text-align: center;
 }
 .entry-title {
-    font-weight: 500;
-    text-align: center;
+	font-weight: 500;
+	text-align: center;
 }
 .archive .entry-title {
 	text-align: left;
@@ -112,11 +112,11 @@ p {
 a,
 .link-primary,
 .link-secondary {
-    text-decoration: none;
+	text-decoration: none;
 }
 a:hover,
 a:focus {
-    text-decoration: underline;
+	text-decoration: underline;
 }
 .button-primary,
 .button-secondary,
@@ -151,10 +151,10 @@ input[type="submit"]:focus {
 	text-align: center;
 }
 .site-title {
-    text-align: center;
+	text-align: center;
 }
 .site-description {
-    text-align: center;
+	text-align: center;
 }
 .menu-social,
 .navbar-nav > li > a {
@@ -184,17 +184,17 @@ input[type="submit"]:focus {
 }
 .widget-title,
 .page-title {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 .comment-reply-title,
 .comments-title {
-    text-transform: uppercase;
+	text-transform: uppercase;
 }
 .form-submit .submit {
 	text-transform: uppercase;
 }
 .woocommerce p.buttons a.button:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 .site-footer {
 	text-align: center;
@@ -225,7 +225,7 @@ input[type="submit"]:focus {
 		text-align: left;
 	}
 	.menu-social {
-    	text-align: right;
+		text-align: right;
 	}
 	.menu-social,
 	.navbar-nav > li > a {
@@ -254,7 +254,7 @@ input[type="submit"]:focus {
 ## Titles
 -----------------------------------------------*/
 .page-template-home .entry-title {
-    display: none;
+	display: none;
 }
 .hentry {
 	margin: 0 auto;
@@ -262,15 +262,15 @@ input[type="submit"]:focus {
 
 /* Headings */
 .heading h3 {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 .heading {
-    margin-bottom: 15px;
+	margin-bottom: 15px;
 }
 
 /* xs */
 .entry-title {
-    padding-bottom: 1.5em;
+	padding-bottom: 1.5em;
 }
 .archive .entry-title {
 	margin-top: 0;

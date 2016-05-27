@@ -62,7 +62,7 @@ body,
 ## Positioning
 -----------------------------------------------*/
 /* xs */
-.page-bg {
+.entry-content {
 	margin-top: 12%;
 	padding-bottom: 25px;
 	padding-top: 25px;
@@ -70,14 +70,14 @@ body,
 
 /* sm */
 @media (min-width: 768px) {
-	.page-bg {
+	.entry-content {
 		margin-top: 30%;
 	}
 }
 
 /* md */
 @media (min-width: 992px) {
-	.page-bg {
+	.entry-content {
 		margin-top: 12%;
 	}
 }

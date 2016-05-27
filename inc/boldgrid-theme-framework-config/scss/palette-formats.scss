@@ -35,8 +35,7 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	.attribution a,
 	.navbar-default .navbar-toggle:hover,
 	.navbar-default .navbar-toggle:focus,
-	.comments-area .comment-content p
-	 {
+	.comments-area .comment-content p {
 		color: $text-contrast-palette-primary_1;
 	}
 	.gridblock hr {
@@ -53,7 +52,7 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 		color: $text-contrast-palette-primary_1;
 	}
 	.widget-area {
-	    border: 1px solid $text-contrast-palette-primary_1;
+		border: 1px solid $text-contrast-palette-primary_1;
 	}
 	hr {
 		border-color: $text-contrast-palette-primary_1;
@@ -73,7 +72,7 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	input[type="submit"],
 	.form-submit .submit {
 		border: 1px solid $palette-primary_2;
-	    color: $palette-primary_2;
+		color: $palette-primary_2;
 	}
 	.button-primary:hover,
 	.button-primary:focus,
@@ -85,7 +84,7 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	.open > .dropdown-toggle.btn-primary {
 		background-color: $palette-primary_2;
 		border-color: $palette-primary_2;
-	    color: $text-contrast-palette-primary_2;
+		color: $text-contrast-palette-primary_2;
 	}
 	.call-to-action .button-primary {
 		background: $palette-primary_1;
@@ -99,7 +98,7 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 		color: $text-contrast-palette-primary_2;
 	}
 	.gridblock ul li:before {
-	    background-color: $palette-primary_2;
+		background-color: $palette-primary_2;
 	}
 
 	.navbar-default .navbar-toggle {
@@ -233,19 +232,19 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	}
 	#secondary-menu,
 	#tertiary-menu {
-	    background: rgba(27, 188, 155, 0.75);
+		background: rgba(27, 188, 155, 0.75);
 	}
 	.woocommerce #respond input#submit,
 	.woocommerce a.button,
 	.woocommerce button.button,
 	.woocommerce input.button,
 	.woocommerce p.buttons a.button {
-	    background-color: #a46497;
-	    color: #fff;
+		background-color: #a46497;
+		color: #fff;
 	}
 	.woocommerce p.buttons a.button:hover {
 		background-color: #dad8da;
-	    color: #515151;
+		color: #515151;
 	}
 	#footer-widget-area {
 		border-top: 1px solid #dee0e0;

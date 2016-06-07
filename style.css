@@ -1,10 +1,10 @@
 /*
 Theme Name: Hydra
 Author: The BoldGrid Team
-Theme URI: http://www.boldgrid.com/hydra
-Author URI: http://www.boldgrid.com/the-team
+Theme URI: https://www.boldgrid.com/hydra
+Author URI: https://www.boldgrid.com/the-team
 Description: Designed specifically for use with the BoldGrid suite of plugins, all BoldGrid themes are highly customizable, responsive to a wide range of devices, and of course, beautiful. Every BoldGrid theme includes five pre-selected color palettes and an advanced tool for creating your own unique palette. In addition, all themes feature multiple menu locations and widget areas, which are easily customizable to suit your needs. So if you're looking for a theme that looks great, feels modern and professional, and offers plenty of features to make it your own, you've chosen well.
-Version: 1.18
+Version: 1.19
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: boldgrid-hydra
@@ -29,15 +29,15 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Social Menus
 # GridBlocks
 	## Positioning
+	## Et Cetera
 # Modules
 	## Universal
 	## Global
 	## Alpha
-	## Beta
 # Pages
-	## Gallery
 # Posts
 # Plugins
+	## WP Canvas Gallery
 	## WooCommerce
 # Footer
 ------------------------------------------------------------------------*/
@@ -49,13 +49,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*-----------------------------------------------
 ## Background
 -----------------------------------------------*/
-body,
-.custom-background {
-  	-webkit-background-size: cover;
-  	-moz-background-size: cover;
-  	-o-background-size: cover;
-  	background-size: cover;
-}
 
 /*-----------------------------------------------
 ## Positioning
@@ -84,6 +77,66 @@ body,
 /*-----------------------------------------------
 ## Typography
 -----------------------------------------------*/
+.entry-title,
+.mod-beta h2 {
+	font-weight: bold;
+}
+.p-button-primary,
+.p-button-secondary {
+	white-space: nowrap;
+}
+#menu-social li a {
+	-webkit-font-smoothing: antialiased;
+}
+a,
+.link-primary,
+.link-secondary,
+.button-primary:hover, 
+.button-primary:focus, 
+.button-primary:active, 
+.open > .dropdown-toggle.btn-primary,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.button-secondary:hover,
+.button-secondary:active,
+.woocommerce p.buttons a.button:hover,
+.woocommerce p.buttons a.button:focus {
+    text-decoration: none;
+}
+a:hover,
+a:focus,
+.site-footer a {
+    text-decoration: underline;
+}
+.site-footer a:hover,
+.site-footer a:focus {
+	text-decoration: none;
+}
+.site-title,
+.site-description,
+.call-to-action,
+.entry-title,
+.menu-social,
+.navbar-nav > li > a,
+#secondary-menu,
+#tertiary-menu,
+.menu-social,
+.icon,
+.heading p,
+.site-footer {
+	text-align: center;
+}
+.cat-item,
+.archive .entry-title,
+.menu-item-object-page,
+#footer-widget-area {
+	text-align: left;
+}
+#menu-social li a {
+	text-align: right;
+}
+
+/* xs */
 .xs-center,
 .mod-img,
 .mod-img-circle,
@@ -91,140 +144,12 @@ body,
 .p-button-secondary {
 	text-align: center;
 }
-h3 {
-    font-weight: 300;
-}
-p {
-	line-height: 28px;
-}
-.icon,
-.heading p {
-	text-align: center;	
-}
-.entry-title {
-    font-weight: 500;
-    text-align: center;
-}
-.archive .entry-title {
-	text-align: left;
-}
-a,
-.link-primary,
-.link-secondary {
-    text-decoration: none;
-}
-a:hover,
-a:focus {
-    text-decoration: underline;
-}
-.button-primary,
-.button-secondary,
-input[type="submit"] {
-	font-family: "Oswald";
-	font-size: 16px;
-	font-weight: 400;
-}
-.button-primary:hover, 
-.button-primary:focus, 
-.button-primary:active, 
-.open > .dropdown-toggle.btn-primary,
-input[type="submit"]:hover,
-input[type="submit"]:focus {
-	text-decoration: none;
-}
-.button-secondary:hover,
-.button-secondary:active {
-	text-decoration: none;
-}
-.p-button-primary,
-.p-button-secondary {
-	white-space: nowrap;
-}
-.call-to-action .button-primary {
-	font-weight: 400;
-}
-.site-title {
-	font-weight: normal;
-}
-.call-to-action {
-	text-align: center;
-}
-.site-title {
-    text-align: center;	
-}
-.site-description {
-    text-align: center;
-}
-.menu-social,
-.navbar-nav > li > a {
-	text-align: center;
-}
-#secondary-menu,
-#tertiary-menu {
-	text-align: center;
-}
-.menu-social {
-	text-align: center;	
-}
-#menu-social li a {
-	text-align: right;
-	-webkit-font-smoothing: antialiased;
-}
-.mod-blockquote p {
-	font-weight: 100;
-	line-height: 40px;
-}
-.mod-alpha h2 {
-	font-weight: 300;
-	line-height: normal;
-}
-.mod-beta h2 {
-	font-weight: 700;
-}
-.widget-title, 
-.page-title {
-    text-transform: uppercase;
-}
-.comment-reply-title,
-.comments-title {
-    text-transform: uppercase;
-}
-.form-submit .submit {
-	text-transform: uppercase;
-}
-.woocommerce p.buttons a.button:hover {
-    text-decoration: none;
-}
-.site-footer {
-	text-align: center;
-}
-.menu-item-object-page {
-	text-align: left;
-}
-.cat-item {
-	text-align: left;
-}
-#footer-widget-area {
-	text-align: left;
-}
-.site-footer a {
-	text-decoration: underline;
-}
-.site-footer a:hover,
-.site-footer a:focus {
-	text-decoration: none;
-}
 
 /* sm */
 @media (min-width: 768px) {
-	.site-title {
-		text-align: left;	
-	}
+	.site-title,
 	.site-description {
 		text-align: left;
-	}
-	.menu-social {
-    	text-align: right;
 	}
 	.menu-social,
 	.navbar-nav > li > a {
@@ -238,14 +163,9 @@ input[type="submit"]:focus {
 	.mod-img,
 	.mod-img-circle,
 	.gridblock .p-button-primary,
-	.gridblock .p-button-secondary {
-		text-align: left;
-	}
+	.gridblock .p-button-secondary,
 	.single .entry-title {
 		text-align: left;
-	}
-	.menu-social {
-		text-align: right;	
 	}
 }
 
@@ -300,6 +220,10 @@ input[type="submit"]:focus {
 /*-----------------------------------------------
 ## Links
 -----------------------------------------------*/
+/* Removes blue box in Chrome */
+*:focus {
+	outline: 0;
+}
 
 /*-----------------------------------------------
 ## Buttons
@@ -396,7 +320,6 @@ header.smaller {
     padding-top: 10px;
 }
 
-
 /* sm */
 @media (min-width: 768px) {
 	.site-title {
@@ -404,8 +327,6 @@ header.smaller {
     	padding-bottom: 0;
 		padding-top: 0;
 	}
-	
-	/* Sticky Header Scroll */
 	.site-header {
 		left: 0;
 		padding-bottom: 0;
@@ -428,8 +349,6 @@ header.smaller {
 	.page header.smaller .social-media {
 		padding-top: 20px;
 	}
-	
-	/* Call to Action */
 	.call-to-action {
 		padding-top: 130px;
 	}
@@ -554,7 +473,7 @@ header.smaller {
 }
 
 /*-----------------------------------------------
-## Alternates
+## Et Cetera
 -----------------------------------------------*/
 .gridblock ul {
 	list-style-type: none;
@@ -630,6 +549,7 @@ header.smaller {
 /*-----------------------------------------------
 ## Global
 -----------------------------------------------*/
+blockquote,
 .mod-blockquote {
 	padding: 0 20px;
 }
@@ -646,24 +566,9 @@ header.smaller {
 	width: 80%;
 }
 
-/*-----------------------------------------------
-## Beta
------------------------------------------------*/
-
 /*------------------------------------------------------------------------
 # Pages
 ------------------------------------------------------------------------*/
-
-/*-----------------------------------------------
-## Gallery
------------------------------------------------*/
-.gallery-icon img:hover {
-	filter: brightness(35%);
-	-webkit-filter: brightness(35%);
-	-moz-filter: brightness(35%);
-	-o-filter: brightness(35%);
-	-ms-filter: brightness(35%);
-}
 
 /*------------------------------------------------------------------------
 # Posts
@@ -705,6 +610,17 @@ header.smaller {
 ------------------------------------------------------------------------*/
 
 /*-----------------------------------------------
+## WP Canvas Gallery
+-----------------------------------------------*/
+.gallery-icon img:hover {
+	filter: brightness(35%);
+	-webkit-filter: brightness(35%);
+	-moz-filter: brightness(35%);
+	-o-filter: brightness(35%);
+	-ms-filter: brightness(35%);
+}
+
+/*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
 .woocommerce .page-title {
@@ -729,16 +645,14 @@ header.smaller {
 #footer-widget-area {
 	padding-top: 15px;	
 }
+ul#footer-center-items {
+	padding: 0;	
+}
 .attribution {
 	margin-top: 0;
 }
 
-/* Footer Widgets */
-ul#footer-center-items {
-	padding: 0;	
-}
-
-/** Sticky Footer **/
+/* Sticky Footer */
 html, body, .site, .site-content {
 	height: 100%;
 }

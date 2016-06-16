@@ -81,6 +81,9 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .mod-beta h2 {
 	font-weight: bold;
 }
+.mod-alpha h2 {
+	line-height: normal;
+}
 .p-button-primary,
 .p-button-secondary {
 	white-space: nowrap;

@@ -49,40 +49,40 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 				'#ffffff',
 				'#1bbc9b',
 				'#3e3e3e',
-			)
+			),
 		),
-		array (
+		array(
 			'format' => 'palette-primary',
 			'colors' => array(
 				'#89c4f4',
 				'#446cb3',
 				'#3e3e3e',
-			)
+			),
 		),
-		array (
+		array(
 			'format' => 'palette-primary',
 			'colors' => array(
 				'#555555',
 				'#f7ca18',
 				'#ffffff',
-			)
+			),
 		),
-		array (
+		array(
 			'format' => 'palette-primary',
 			'colors' => array(
 				'#fde3a7',
 				'#f27935',
 				'#555555',
-			)
+			),
 		),
-		array (
+		array(
 			'format' => 'palette-primary',
 			'colors' => array(
 				'#c0392b',
 				'#f4b350',
 				'#ffffff',
-			)
-		)
+			),
+		),
 	);
 
 	// Override Options per Subcategory.
@@ -128,12 +128,12 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['template']['tagline-classes'] = 'h5 alt-font';
 
 	// Typography Relationships.
-	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.mod-alpha h2' ]= array(
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.mod-alpha h2'] = array(
 		'type' => 'headings',
 		'round' => 'floor',
 		'amount' => 2.6,
 	);
-	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.p-button-primary a, .p-button-secondary a, .call-to-action a.button-primary, .form-submit a, .ninja-forms-all-fields-wrap input.btn' ]= array(
+	$boldgrid_framework_configs['customizer-options']['typography']['selectors']['.p-button-primary a, .p-button-secondary a, .call-to-action a.button-primary, .form-submit a, .ninja-forms-all-fields-wrap input.btn'] = array(
 		'type' => 'headings',
 		'round' => 'floor',
 		'amount' => 1.25,
@@ -147,7 +147,7 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['menu']['locations']['tertiary'] = "Below Header";
 	$boldgrid_framework_configs['menu']['locations']['social'] = "Upper Right";
 
-	// Enable Sticky Nav in Header
+	// Enable Sticky Nav in Header.
 	$boldgrid_framework_configs['scripts']['boldgrid-sticky-nav'] = true;
 
 	/**
@@ -163,20 +163,20 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 		</div>
 HTML;
 
-	// Widget 1
-	$boldgrid_framework_configs['widget']['widget_instances']['boldgrid-widget-1'][] = array (
+	// Widget 1.
+	$boldgrid_framework_configs['widget']['widget_instances']['boldgrid-widget-1'][] = array(
 		'title' => 'Call To Action',
 		'text' => $widget_markup['call-to-action'],
 		'type' => 'visual',
 		'filter' => 1,
-		'label' => 'black-studio-tinymce'
+		'label' => 'black-studio-tinymce',
 	);
 
-	// Name Widget Areas
+	// Name Widget Areas.
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-2']['name'] = 'Above Site Title';
 	$boldgrid_framework_configs['widget']['sidebars']['boldgrid-widget-1']['name'] = 'Below Primary Navigation';
 
-	// Configs above will override framework defaults
+	// Configs above will override framework defaults.
 	return $boldgrid_framework_configs;
 }
 add_filter( 'boldgrid_theme_framework_config', 'boldgrid_theme_framework_config' );

@@ -27,8 +27,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	## Other Menus
 	## Social Menus
 # GridBlocks
-	## Positioning
-	## Et Cetera
 # Modules
 	## Global
 	## Alpha
@@ -440,26 +438,6 @@ header.smaller {
 /*------------------------------------------------------------------------
 # GridBlocks
 ------------------------------------------------------------------------*/
-
-/*-----------------------------------------------
-## Positioning
------------------------------------------------*/
-.gridblock h1,
-.gridblock h2,
-.gridblock h3,
-.gridblock h4,
-.gridblock h5,
-.gridblock h6,
-.gridblock ol,
-.gridblock ul,
-.gridblock li,
-.gridblock p {
-	margin: 10px 0;
-}
-
-/*-----------------------------------------------
-## Et Cetera
------------------------------------------------*/
 .gridblock ul {
 	list-style-type: none;
 	padding-left: 26px;

@@ -542,7 +542,6 @@ blockquote,
 	margin: 25px 0 0;
 	padding: 20px 25px;
 	transition: all .5s;
-	/* Border Radius */
 	-webkit-border-radius: 0;
 	-moz-border-radius: 0;
 	border-radius: 0;
@@ -579,9 +578,7 @@ blockquote,
 .site-footer {
 	padding-bottom: 30px;
 }
-.menu-item-object-page {
-	list-style: none;
-}
+.menu-item-object-page,
 .cat-item {
 	list-style: none;
 }

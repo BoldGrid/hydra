@@ -15,7 +15,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 >>> TABLE OF CONTENTS:
 --------------------------------------------------------------------------
 # Base Styles
-	## Background
 	## Positioning
 	## Typography
 	## Titles
@@ -44,10 +43,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /*------------------------------------------------------------------------
 # Base Styles
 ------------------------------------------------------------------------*/
-
-/*-----------------------------------------------
-## Background
------------------------------------------------*/
 
 /*-----------------------------------------------
 ## Positioning
@@ -90,6 +85,11 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 #menu-social li a {
 	-webkit-font-smoothing: antialiased;
 }
+a:hover,
+a:focus,
+.site-footer a {
+	text-decoration: underline;
+}
 a,
 .link-primary,
 .link-secondary,
@@ -102,18 +102,12 @@ input[type="submit"]:focus,
 .button-secondary:hover,
 .button-secondary:active,
 .woocommerce p.buttons a.button:hover,
-.woocommerce p.buttons a.button:focus {
-	text-decoration: none;
-}
-a:hover,
-a:focus,
-.site-footer a {
-	text-decoration: underline;
-}
+.woocommerce p.buttons a.button:focus,
 .site-footer a:hover,
 .site-footer a:focus {
 	text-decoration: none;
 }
+
 .site-title,
 .site-description,
 .call-to-action,
@@ -125,7 +119,12 @@ a:focus,
 .menu-social,
 .icon,
 .heading p,
-.site-footer {
+.site-footer,
+.xs-center,
+.mod-img,
+.mod-img-circle,
+.p-button-primary,
+.p-button-secondary {
 	text-align: center;
 }
 .cat-item,
@@ -136,15 +135,6 @@ a:focus,
 }
 #menu-social li a {
 	text-align: right;
-}
-
-/* xs */
-.xs-center,
-.mod-img,
-.mod-img-circle,
-.p-button-primary,
-.p-button-secondary {
-	text-align: center;
 }
 
 /* sm */
@@ -289,7 +279,6 @@ header.site-header {
 	z-index: 999;
 }
 header.smaller {
-	/* Transition */
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;
@@ -303,11 +292,7 @@ header.smaller {
 	padding-top: 60px;
 }
 
-.page-template-default .call-to-action {
-	display: none;
-}
-
-/* Header Title */
+.page-template-default .call-to-action,
 .page-template-page_home .header-title {
 	display: none;
 }
@@ -388,9 +373,7 @@ header.smaller {
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
-	background: none;
-}
+.navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
 	background: none;

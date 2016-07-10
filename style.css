@@ -560,13 +560,3 @@ ul#footer-center-items {
 .attribution {
 	margin-top: 0;
 }
-
-/* Sticky Footer */
-html, body, .site, .site-content {
-	height: 100%;
-}
-#boldgrid-sticky-wrap {
-	min-height: 100%;
-	height: auto !important;
-	height: 100%;
-}

@@ -143,9 +143,9 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	$boldgrid_framework_configs['social-icons']['size'] = 'large';
 
 	// Menu Locations.
-	$boldgrid_framework_configs['menu']['locations']['secondary'] = "Above Header";
-	$boldgrid_framework_configs['menu']['locations']['tertiary'] = "Below Header";
-	$boldgrid_framework_configs['menu']['locations']['social'] = "Upper Right";
+	$boldgrid_framework_configs['menu']['locations']['secondary'] = 'Above Header';
+	$boldgrid_framework_configs['menu']['locations']['tertiary'] = 'Below Header';
+	$boldgrid_framework_configs['menu']['locations']['social'] = 'Upper Right';
 
 	// Enable Sticky Nav in Header.
 	$boldgrid_framework_configs['scripts']['boldgrid-sticky-nav'] = true;

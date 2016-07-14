@@ -80,9 +80,6 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .p-button-secondary {
 	white-space: nowrap;
 }
-#menu-social li a {
-	-webkit-font-smoothing: antialiased;
-}
 a:hover,
 a:focus,
 .site-footer a {
@@ -265,10 +262,10 @@ hr {
 # Header
 ------------------------------------------------------------------------*/
 /* Sticky Header Scroll */
-header.site-header {
+.site-header {
 	z-index: 999;
 }
-header.smaller {
+.smaller {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	-ms-transition: all 0.3s;

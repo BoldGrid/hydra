@@ -46,7 +46,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 ## Positioning
 -----------------------------------------------*/
 /* xs */
-.page-bg {
+.entry-content {
 	margin-top: 12%;
 	padding-bottom: 25px;
 	padding-top: 25px;
@@ -54,14 +54,14 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 
 /* sm */
 @media (min-width: 768px) {
-	.page-bg {
+	.entry-content {
 		margin-top: 30%;
 	}
 }
 
 /* md */
 @media (min-width: 992px) {
-	.page-bg {
+	.entry-content {
 		margin-top: 12%;
 	}
 }

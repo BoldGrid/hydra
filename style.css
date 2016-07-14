@@ -311,16 +311,16 @@ hr {
 	.classie-spacer {
 		height: 45px;
 	}
-	header.smaller {
+	.smaller {
 		padding-bottom: 0;
 	}
-	header.smaller .classie-spacer {
+	.smaller .classie-spacer {
 		height: 20px;
 	}
-	header.smaller #primary-navbar {
+	.smaller #primary-navbar {
 		padding-top: 0;
 	}
-	.page header.smaller .social-media {
+	.page .smaller .social-media {
 		padding-top: 20px;
 	}
 	.call-to-action {

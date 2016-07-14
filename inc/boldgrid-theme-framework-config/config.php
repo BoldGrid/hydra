@@ -1,8 +1,8 @@
 <?php
 function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
-
 	// Text Domain.
 	$boldgrid_framework_configs['theme_name'] = 'boldgrid-hydra';
+
 	// Enable Sticky Footer.
 	$boldgrid_framework_configs['scripts']['boldgrid-sticky-footer'] = true;
 
@@ -23,6 +23,12 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 
 	// Select the header template to use.
 	$boldgrid_framework_configs['template']['header'] = 'generic';
+
+	// Give page_home.php a fluid container.
+	$boldgrid_framework_configs['template']['pages']['page_home.php']['container_class'] = 'container-fluid';
+
+	// Give the default page a regular container.
+	$boldgrid_framework_configs['template']['pages']['default']['container_class'] = 'container-fluid';
 
 	// Assign menus, widgets, and actions to locations in generic header template.
 	$boldgrid_framework_configs['template']['locations']['header'] = array(

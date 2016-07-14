@@ -263,7 +263,7 @@ hr {
 ------------------------------------------------------------------------*/
 /* Sticky Header Scroll */
 .site-header {
-	z-index: 999;
+	z-index: 99;
 }
 .smaller {
 	-webkit-transition: all 0.3s;

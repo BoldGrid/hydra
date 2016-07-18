@@ -66,6 +66,10 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	}
 }
 
+.single .main {
+	margin-top: 3em;
+}
+
 /*-----------------------------------------------
 ## Typography
 -----------------------------------------------*/

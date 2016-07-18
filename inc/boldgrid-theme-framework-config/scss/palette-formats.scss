@@ -16,7 +16,7 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 		color: $text-contrast-palette-primary_1;
 	}
 	.page-bg,
-	.single .main,
+	&.single .main,
 	.entry-content,
 	.entry-footer,
 	.site-footer,
@@ -232,10 +232,6 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	}
 	.dropdown-menu {
 		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.176);
-	}
-	#secondary-menu,
-	#tertiary-menu {
-		background: rgba(27, 188, 155, 0.75);
 	}
 	.woocommerce #respond input#submit,
 	.woocommerce a.button,

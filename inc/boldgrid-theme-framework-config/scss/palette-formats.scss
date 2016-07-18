@@ -251,8 +251,8 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	#footer-widget-area {
 		border-top: 1px solid #dee0e0;
 	}
-}
-.palette-primary.mce-content-body {
-	background: $palette-primary_1;
-	color: $text-contrast-palette-primary_1;
+	&.mce-content-body {
+		background: $palette-primary_1;
+		color: $text-contrast-palette-primary_1;
+	}
 }

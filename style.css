@@ -178,6 +178,11 @@ input[type="submit"]:focus,
 .entry-title {
 	padding-bottom: 1.5em;
 }
+.entry-title a,
+.entry-title a:hover,
+.entry-title a:focus {
+	text-decoration: none;
+}
 .archive .entry-title {
 	margin-top: 0;
 	padding-bottom: 15px;

@@ -188,7 +188,6 @@ input[type="submit"]:focus,
 /* sm */
 @media (min-width: 768px) {
 	.entry-title {
-		margin-top: -185px;
 		padding-bottom: 3em;
 		padding-top: 1em;
 	}
@@ -198,10 +197,12 @@ input[type="submit"]:focus,
 @media (min-width: 992px) {
 	.entry-title,
 	.entry-title a {
-		margin-top: -185px;
 		padding-bottom: 2.5em;
 		padding-top: 1.5em;
 	}
+}
+.page-template-default .entry-content {
+	margin-top: 0;
 }
 
 /*-----------------------------------------------

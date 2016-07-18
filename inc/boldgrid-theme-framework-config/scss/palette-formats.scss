@@ -217,7 +217,9 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	/*-----------------------------------------------
 	# Et Cetera
 	-----------------------------------------------*/
-	.entry-title {
+	.entry-title a,
+	.entry-title a:hover,
+	.entry-title a:focus {
 		color: #fff;
 		text-shadow: 0.1em 0.1em 0.05em #333;
 	}

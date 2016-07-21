@@ -252,4 +252,10 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
+	&.error404 {
+		.site-content {
+			background: $palette-primary_1;
+			color: $text-contrast-palette-primary_1;
+		}
+	}
 }

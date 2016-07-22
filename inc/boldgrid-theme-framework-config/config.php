@@ -27,6 +27,9 @@ function boldgrid_theme_framework_config( $boldgrid_framework_configs ) {
 	// Add container to call to action widget.
 	$boldgrid_framework_configs['template']['pages']['global']['call-to-action'] = 'container';
 
+	// Add container to call to action widget.
+	$boldgrid_framework_configs['template']['pages']['blog'] = 'container-fluid';
+
 	// Assign menus, widgets, and actions to locations in generic header template.
 	$boldgrid_framework_configs['template']['locations']['header'] = array(
 		'12' => array( '[menu]secondary' ),

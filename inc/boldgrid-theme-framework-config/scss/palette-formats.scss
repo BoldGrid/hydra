@@ -16,7 +16,6 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 		color: $text-contrast-palette-primary_1;
 	}
 	.page-bg,
-	&.single .main,
 	.entry-content,
 	.entry-footer,
 	.site-footer,
@@ -218,6 +217,15 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	/*-----------------------------------------------
 	# Et Cetera
 	-----------------------------------------------*/
+	&.single,
+	&.archive {
+		.entry-title a,
+		.entry-title a:hover,
+		.entry-title a:focus {
+			color: $text-contrast-palette-primary_1;
+			text-shadow: none;
+		}
+	}
 	.entry-title a,
 	.entry-title a:hover,
 	.entry-title a:focus {
@@ -257,5 +265,10 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 			background: $palette-primary_1;
 			color: $text-contrast-palette-primary_1;
 		}
+	}
+	&.single .main,
+	&.archive .main {
+		background: $palette-primary_1;
+		color: $text-contrast-palette-primary_1;
 	}
 }

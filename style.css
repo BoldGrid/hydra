@@ -503,6 +503,13 @@ blockquote,
 .error404 .button-primary {
 	margin: 0;
 }
+/* Search */
+.search .button-primary {
+	margin: 0;
+}
+.search .jumbotron {
+	background: none;
+}
 /*------------------------------------------------------------------------
 # Posts
 ------------------------------------------------------------------------*/
@@ -566,7 +573,7 @@ blockquote,
 # Footer
 ------------------------------------------------------------------------*/
 .site-footer {
-	padding-bottom: 30px;
+	padding: 1em 0;
 }
 .menu-item-object-page,
 .cat-item {

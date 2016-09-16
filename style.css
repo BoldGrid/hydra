@@ -66,13 +66,15 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	}
 }
 
-.single .main {
+.single .main,
+.archive .main {
 	margin-top: 3em;
 }
 .single .entry-title {
 	padding: 0;
 }
-.single .entry-content {
+.single .entry-content,
+.archive .entry-content {
 	margin-top: 0;
 }
 

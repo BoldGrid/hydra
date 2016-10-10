@@ -7,6 +7,7 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 # Palettes
 ------------------------------------------------------------------------*/
 .palette-primary {
+	color: $text-contrast-palette-primary_1;
 
 	/*-----------------------------------------------
 	## 1
@@ -28,7 +29,6 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	.comments-area .panel-footer {
 		background: $palette-primary_1;
 	}
-	p,
 	.site-info,
 	.site-info a,
 	.attribution,

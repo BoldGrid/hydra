@@ -398,6 +398,11 @@ hr {
 .navbar-default .navbar-nav > li > a:focus {
 	background: none;
 }
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+	background: transparent;       
+}
 
 /* Dropdown */
 .navbar-nav > li > .dropdown-menu {

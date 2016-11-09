@@ -290,6 +290,9 @@ input[type="submit"] {
 hr {
 	margin: 65px 0 50px;
 }
+.table-striped > tbody > tr:nth-of-type(2n+1) {
+	background: transparent;
+}
 
 /*------------------------------------------------------------------------
 # Header
@@ -336,6 +339,7 @@ hr {
 	}
 	.site-header {
 		left: 0;
+		margin-bottom: 50px;
 		padding-bottom: 0;
 		position: fixed;
 		top: 25;

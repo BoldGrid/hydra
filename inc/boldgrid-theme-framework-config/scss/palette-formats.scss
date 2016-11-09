@@ -12,7 +12,8 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	/*-----------------------------------------------
 	## 1
 	-----------------------------------------------*/
-	.site-header {
+	.site-header,
+	.well {
 		background: $rgba_1;
 		color: $text-contrast-palette-primary_1;
 	}
@@ -21,8 +22,7 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	.entry-footer,
 	.site-footer,
 	#boldgrid-sticky-push,
-	#boldgrid-sticky-filler,
-	.table-striped td {
+	#boldgrid-sticky-filler {
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
@@ -179,9 +179,14 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 		border-left: 6px solid $palette-primary_2;
 	}
 	.nav > li > a:focus,
-	.nav > li > a:hover {
+	.nav > li > a:hover,
+	#colophon .widget.well li.current_page_item a:focus,
+	#colophon .widget.well li.current_page_item a:hover {
 		background-color: $palette-primary_2;
 		color: $text-contrast-palette-primary_2;
+	}
+	.well {
+		border: 1px solid $palette-primary_2;
 	}
 
 	/*-----------------------------------------------

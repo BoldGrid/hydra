@@ -70,7 +70,8 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	-----------------------------------------------*/
 	.button-primary,
 	input[type="submit"],
-	.form-submit .submit {
+	.form-submit .submit,
+	.pager li > a {
 		border: 1px solid $palette-primary_2;
 		color: $palette-primary_2;
 	}
@@ -81,7 +82,9 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	input[type="submit"]:focus,
 	.form-submit .submit:hover,
 	.form-submit .submit:focus,
-	.open > .dropdown-toggle.btn-primary {
+	.open > .dropdown-toggle.btn-primary,
+	.pager li > a:hover,
+	.pager li > a:active {
 		background-color: $palette-primary_2;
 		border-color: $palette-primary_2;
 		color: $text-contrast-palette-primary_2;

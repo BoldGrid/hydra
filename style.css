@@ -84,9 +84,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	text-align: center;
 }
 .blog .entry-meta {
-	color: #fff;
 	padding-top: 10px;
-	text-shadow: 0.1em 0.1em 0.05em #333;
 }
 .blog .container-fluid .boldgrid-section {
 	margin-left: 0;
@@ -290,7 +288,8 @@ input[type="submit"] {
 hr {
 	margin: 65px 0 50px;
 }
-.table-striped > tbody > tr:nth-of-type(2n+1) {
+.table-striped > tbody > tr:nth-of-type(2n+1),
+.pager li > a {
 	background: transparent;
 }
 

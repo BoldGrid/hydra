@@ -22,7 +22,10 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	.entry-footer,
 	.site-footer,
 	#boldgrid-sticky-push,
-	#boldgrid-sticky-filler {
+	#boldgrid-sticky-filler,
+	.panel-default > .panel-heading,
+	.panel-body,
+	.panel-footer {
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
@@ -56,6 +59,9 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	}
 	hr {
 		border-color: $text-contrast-palette-primary_1;
+	}
+	.panel-default {
+		border-color: $palette-primary_1;
 	}
 
 	/* sm */

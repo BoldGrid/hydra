@@ -558,7 +558,14 @@ blockquote,
 	padding-right: 15px;
 }
 .panel-footer {
+	border-top: 1px solid transparent;
 	padding: 25px 15px;
+}
+.panel-default > .panel-heading {
+	border: none;
+}
+.panel {
+	box-shadow: none;
 }
 
 /* Call to Action */

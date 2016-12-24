@@ -48,8 +48,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /* xs */
 .entry-content {
 	margin-top: 12%;
-	padding-bottom: 25px;
 	padding-top: 25px;
+	padding-bottom: 25px;
 }
 
 /* sm */
@@ -87,8 +87,8 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	padding-top: 10px;
 }
 .blog .container-fluid .boldgrid-section {
-	margin-left: 0;
 	margin-right: 0;
+	margin-left: 0;
 }
 
 /*-----------------------------------------------
@@ -213,16 +213,16 @@ input[type="submit"]:focus,
 }
 .archive .entry-title {
 	margin-top: 0;
-	padding-bottom: 15px;
 	padding-top: 25px;
+	padding-bottom: 15px;
 	text-shadow: none;
 }
 
 /* sm */
 @media (min-width: 768px) {
 	.entry-title {
-		padding-bottom: 3em;
 		padding-top: 1em;
+		padding-bottom: 3em;
 	}
 }
 
@@ -230,8 +230,8 @@ input[type="submit"]:focus,
 @media (min-width: 992px) {
 	.entry-title,
 	.entry-title a {
-		padding-bottom: 2.5em;
 		padding-top: 1.5em;
+		padding-bottom: 2.5em;
 	}
 }
 .page-template-default .entry-content {
@@ -244,10 +244,10 @@ input[type="submit"]:focus,
 .button-primary,
 .button-secondary,
 input[type="submit"] {
-	background: none;
 	margin: 10px 0;
 	padding: 10px 25px;
-	transition: all 0.5s ease 0s;
+	background: none;
+	transition: all .5s ease 0s;
 }
 
 /* Positioning */
@@ -304,7 +304,7 @@ hr {
 	z-index: 99;
 }
 .smaller {
-	transition: all 0.3s;
+	transition: all .3s;
 }
 
 /* Call to Action */
@@ -323,8 +323,8 @@ hr {
 	padding-top: 20px;
 }
 .site-description {
-	margin-left: 2px;
 	margin-top: -20px;
+	margin-left: 2px;
 	padding-top: 10px;
 }
 
@@ -332,15 +332,15 @@ hr {
 @media (min-width: 768px) {
 	.site-title {
 		margin-bottom: 5px;
-		padding-bottom: 0;
 		padding-top: 0;
+		padding-bottom: 0;
 	}
 	.site-header {
+		position: fixed;
+		top: 25;
 		left: 0;
 		margin-bottom: 50px;
 		padding-bottom: 0;
-		position: fixed;
-		top: 25;
 		width: 100%;
 	}
 	.classie-spacer {
@@ -382,13 +382,13 @@ hr {
 ## Main Menu
 -----------------------------------------------*/
 .navbar {
-	margin-bottom: 0;
 	margin-top: -10px;
+	margin-bottom: 0;
 }
 .navbar-default {
-	background: none;
-	border: none;
 	padding-right: 0;
+	border: none;
+	background: none;
 }
 .navbar-nav > li > a {
 	padding: 12px 10px;
@@ -403,7 +403,7 @@ hr {
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-	background: transparent;       
+	background: transparent;
 }
 
 /* Dropdown */
@@ -450,15 +450,15 @@ hr {
 }
 .menu-social li {
 	display: inline;
-	list-style: none;
 	padding-right: 10px;
+	list-style: none;
 }
 #menu-social ul {
-	padding-left: 0px;
+	padding-left: 0;
 }
 #menu-social ul li {
 	position: relative;
-	display:  inline-block;
+	display: inline-block;
 }
 #menu-social li a {
 	display: inline-block;
@@ -468,28 +468,28 @@ hr {
 # GridBlocks
 ------------------------------------------------------------------------*/
 .gridblock ul {
-	list-style-type: none;
 	padding-left: 26px;
+	list-style-type: none;
 }
 .gridblock ul li:before {
-	-moz-background-clip: padding;
-	-moz-border-radius: 3px;
-	-webkit-background-clip: padding-box;
-	-webkit-border-radius: 3px;
-	background-clip: padding-box;
-	border-radius: 3px;
-	content: '';
-	display: inline-block;
-	height: 6px;
-	margin-right: 8px;
 	position: relative;
+	display: inline-block;
+	margin-right: 8px;
 	width: 6px;
+	height: 6px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding;
+	background-clip: padding-box;
+	content: "";
 }
 .gridblock hr {
-	border: 0;
-	height: 1px;
 	margin-top: 10px;
 	margin-bottom: 30px;
+	height: 1px;
+	border: 0;
 }
 
 /*------------------------------------------------------------------------
@@ -508,12 +508,12 @@ blockquote,
 ## Alpha
 -----------------------------------------------*/
 .mod-alpha {
-	background: url('images/quote.png') no-repeat;
-	background-position: left;
-	height: 100%;
 	margin: 0 auto;
 	padding-top: 50px;
 	width: 80%;
+	height: 100%;
+	background: url("images/quote.png") no-repeat;
+	background-position: left;
 }
 
 /*------------------------------------------------------------------------
@@ -521,8 +521,8 @@ blockquote,
 ------------------------------------------------------------------------*/
 /* 404 page */
 .error404 .list-group-item {
-	background: transparent;
 	border: none;
+	background: transparent;
 }
 .error404 .button-primary {
 	margin: 0;
@@ -542,7 +542,7 @@ blockquote,
 .widget-area {
 	margin-top: 25px;
 	padding: 25px;
-	list-style:none;
+	list-style: none;
 }
 .nav-links {
 	margin: 25px 0;
@@ -554,8 +554,8 @@ blockquote,
 	padding-right: 15px;
 }
 .panel-footer {
-	border-top: 1px solid transparent;
 	padding: 25px 15px;
+	border-top: 1px solid transparent;
 }
 .panel-default > .panel-heading {
 	border: none;
@@ -571,11 +571,11 @@ blockquote,
 
 /* Buttons */
 .form-submit .submit {
-	background: none;
 	margin: 25px 0 0;
 	padding: 20px 25px;
-	transition: all .5s;
 	border-radius: 0;
+	background: none;
+	transition: all .5s;
 }
 
 /*------------------------------------------------------------------------
@@ -586,11 +586,12 @@ blockquote,
 ## WP Canvas Gallery
 -----------------------------------------------*/
 .gallery-icon img:hover {
-	filter: brightness(35%);
 	-webkit-filter: brightness(35%);
+	-ms-filter: brightness(35%);
+	filter: brightness(35%);
+
 	-moz-filter: brightness(35%);
 	-o-filter: brightness(35%);
-	-ms-filter: brightness(35%);
 }
 
 /*-----------------------------------------------

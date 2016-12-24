@@ -304,10 +304,6 @@ hr {
 	z-index: 99;
 }
 .smaller {
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	-ms-transition: all 0.3s;
-	-o-transition: all 0.3s;
 	transition: all 0.3s;
 }
 
@@ -579,8 +575,6 @@ blockquote,
 	margin: 25px 0 0;
 	padding: 20px 25px;
 	transition: all .5s;
-	-webkit-border-radius: 0;
-	-moz-border-radius: 0;
 	border-radius: 0;
 }
 

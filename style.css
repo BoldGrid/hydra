@@ -252,7 +252,8 @@ input[type="submit"] {
 
 /* Positioning */
 .p-button-primary,
-.p-button-secondary {
+.p-button-secondary,
+.gridblock .p-button-primary {
 	margin: 30px 0;
 }
 .gridblock .p-button-secondary {

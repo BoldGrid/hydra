@@ -51,11 +51,22 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 	padding-top: 25px;
 	padding-bottom: 25px;
 }
+.archive .main.container-fluid > *,
+.single .main.container-fluid > *,
+.search .main.container-fluid > * {
+  	margin-left: auto;
+  	margin-right: auto;
+}
 
 /* sm */
 @media (min-width: 768px) {
 	.entry-content {
 		margin-top: 30%;
+	}
+	.archive .main.container-fluid > *,
+	.single .main.container-fluid > *,
+	.search .main.container-fluid > * {
+		width: 750px;
 	}
 }
 
@@ -63,6 +74,20 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 @media (min-width: 992px) {
 	.entry-content {
 		margin-top: 12%;
+	}
+	.archive .main.container-fluid > *,
+	.single .main.container-fluid > *,
+	.search .main.container-fluid > * {
+		width: 970px;
+	}
+}
+
+/* lg */
+@media (min-width: 1200px) {
+	.archive .main.container-fluid > *,
+	.single .main.container-fluid > *,
+	.search .main.container-fluid > * {
+		width: 1170px;
 	}
 }
 
@@ -223,6 +248,10 @@ input[type="submit"]:focus,
 	.entry-title {
 		padding-top: 1em;
 		padding-bottom: 3em;
+	}
+	.archive .entry-title,
+	.single .entry-title {
+		margin-left: -15px;
 	}
 }
 
@@ -577,6 +606,13 @@ blockquote,
 	border-radius: 0;
 	background: none;
 	transition: all .5s;
+}
+
+/* sm */
+@media (min-width: 768px) {
+	.search .jumbotron {
+		padding-left: 0;
+	}
 }
 
 /*------------------------------------------------------------------------

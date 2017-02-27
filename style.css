@@ -54,8 +54,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .archive .main.container-fluid > *,
 .single .main.container-fluid > *,
 .search .main.container-fluid > * {
-  	margin-left: auto;
-  	margin-right: auto;
+	margin: 0 auto;
 }
 
 /* sm */

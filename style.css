@@ -211,6 +211,9 @@ input[type="submit"]:focus,
 .page-template-page_home .entry-title {
 	display: none;
 }
+.page-template-default .entry-content {
+	margin-top: 0;
+}
 .hentry {
 	margin: 0 auto;
 }
@@ -233,7 +236,9 @@ input[type="submit"]:focus,
 .entry-title a,
 .entry-title a:hover,
 .entry-title a:focus {
+	color: #fff;
 	text-decoration: none;
+	text-shadow: 0.1em 0.1em 0.05em #333;
 }
 .archive .entry-title {
 	margin-top: 0;
@@ -261,9 +266,6 @@ input[type="submit"]:focus,
 		padding-top: 1.5em;
 		padding-bottom: 2.5em;
 	}
-}
-.page-template-default .entry-content {
-	margin-top: 0;
 }
 
 /*-----------------------------------------------
@@ -328,6 +330,13 @@ hr {
 /*------------------------------------------------------------------------
 # Header
 ------------------------------------------------------------------------*/
+.site-header {
+	/* Box Shadow */
+	-webkit-box-shadow: 0 3px 8px 2px rgba(38, 38, 38, 0.5);
+	-moz-box-shadow: 0 3px 8px 2px rgba(38, 38, 38, 0.5);
+	box-shadow: 0 3px 8px 2px rgba(38, 38, 38, 0.5);
+}
+
 /* Sticky Header Scroll */
 .site-header {
 	z-index: 99;
@@ -441,6 +450,7 @@ hr {
 }
 .dropdown-menu {
 	border: none;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.176);
 }
 
 /* sm */
@@ -633,12 +643,6 @@ blockquote,
 /*-----------------------------------------------
 ## WooCommerce
 -----------------------------------------------*/
-.woocommerce .page-title {
-	margin: 0;
-}
-.woocommerce p.buttons a.button:hover {
-	background-image: none;
-}
 
 /*------------------------------------------------------------------------
 # Footer
@@ -651,6 +655,7 @@ blockquote,
 	list-style: none;
 }
 #footer-widget-area {
+	border-top: 1px solid #dee0e0;
 	padding-top: 15px;
 }
 ul#footer-center-items {

@@ -247,36 +247,6 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 			text-shadow: none;
 		}
 	}
-	.entry-title a,
-	.entry-title a:hover,
-	.entry-title a:focus {
-		color: #fff;
-		text-shadow: 0.1em 0.1em 0.05em #333;
-	}
-	.site-header {
-		/* Box Shadow */
-		-webkit-box-shadow: 0 3px 8px 2px rgba(38, 38, 38, 0.5);
-		-moz-box-shadow: 0 3px 8px 2px rgba(38, 38, 38, 0.5);
-		box-shadow: 0 3px 8px 2px rgba(38, 38, 38, 0.5);
-	}
-	.dropdown-menu {
-		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.176);
-	}
-	.woocommerce #respond input#submit,
-	.woocommerce a.button,
-	.woocommerce button.button,
-	.woocommerce input.button,
-	.woocommerce p.buttons a.button {
-		background-color: #a46497;
-		color: #fff;
-	}
-	.woocommerce p.buttons a.button:hover {
-		background-color: #dad8da;
-		color: #515151;
-	}
-	#footer-widget-area {
-		border-top: 1px solid #dee0e0;
-	}
 	&.mce-content-body {
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;

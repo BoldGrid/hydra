@@ -190,7 +190,9 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	.nav > li > a:focus,
 	.nav > li > a:hover,
 	#colophon .widget.well li.current_page_item a:focus,
-	#colophon .widget.well li.current_page_item a:hover {
+	#colophon .widget.well li.current_page_item a:hover,
+	.mark,
+	mark {
 		background-color: $palette-primary_2;
 		color: $text-contrast-palette-primary_2;
 	}

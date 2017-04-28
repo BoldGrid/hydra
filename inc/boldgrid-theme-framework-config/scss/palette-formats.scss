@@ -36,7 +36,8 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	.attribution-theme-mods a,
 	.navbar-default .navbar-toggle:hover,
 	.navbar-default .navbar-toggle:focus,
-	.comments-area .comment-content p {
+	.comments-area .comment-content p,
+	#reviews #comments ol.commentlist li .meta {
 		color: $text-contrast-palette-primary_1;
 	}
 	.gridblock hr {
@@ -52,7 +53,8 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
-	.widget-area {
+	.widget-area,
+	#reviews #comments ol.commentlist li .comment-text {
 		border: 1px solid $text-contrast-palette-primary_1;
 	}
 	hr {

@@ -183,15 +183,6 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	.navbar-default .navbar-nav > li > a:focus {
 		color: $palette-primary_2;
 	}
-	ul.products li.product .price,
-	.woocommerce-MyAccount-navigation-link a {
-		color: $palette-primary_2 !important;
-	}
-	.woocommerce-MyAccount-navigation-link a:hover,
-	.woocommerce-MyAccount-navigation-link .color1-background-color {
-		background: $palette-primary_2 !important;
-		color: $text-contrast-palette-primary_2 !important;
-	}
 	#secondary-menu,
 	#tertiary-menu {
 		background: rgba($palette-primary_2, 0.8);
@@ -242,9 +233,6 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	.button-secondary:active {
 		background-color: $palette-primary_3;
 		color: $text-contrast-palette-primary_3;
-	}
-	.widget_price_filter .price_slider_wrapper .ui-widget-content {
-		background-color: $palette-primary_3 !important;
 	}
 
 	/*-----------------------------------------------

@@ -278,4 +278,7 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
+	&.woocommerce .color1-color {
+		color: $palette-primary_2 !important;
+	}
 }

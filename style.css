@@ -326,6 +326,10 @@ hr {
 .pager li > a {
 	background: transparent;
 }
+input,
+select {
+	color: #333;
+}
 
 /*------------------------------------------------------------------------
 # Header

@@ -457,6 +457,14 @@ select {
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.176);
 }
 
+/* Open */
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover {
+	background: none;
+	border: none; 
+}
+
 /* sm */
 @media (min-width: 768px) {
 	#primary-navbar {

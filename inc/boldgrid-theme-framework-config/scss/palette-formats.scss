@@ -117,12 +117,8 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	.gridblock ul li:before {
 		background-color: $palette-primary_2;
 	}
-
 	.navbar-default .navbar-toggle {
 		border-color: $palette-primary_2;
-		.icon-bar {
-			background-color: $palette-primary_2
-		}
 	}
 
 	.navbar-default .navbar-nav {
@@ -197,6 +193,8 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	}
 	.nav > li > a:focus,
 	.nav > li > a:hover,
+	.navbar-default .navbar-toggle:hover,
+	.navbar-default .navbar-toggle:focus,
 	#colophon .widget.well li.current_page_item a:focus,
 	#colophon .widget.well li.current_page_item a:hover,
 	.mark,
@@ -234,6 +232,11 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 		background-color: $palette-primary_3;
 		color: $text-contrast-palette-primary_3;
 	}
+	.navbar-default .navbar-toggle .icon-bar,
+	.navbar-default .navbar-toggle:hover .icon-bar,
+	.navbar-default .navbar-toggle:focus .icon-bar {
+		background-color: $palette-primary_3;
+	}	
 
 	/*-----------------------------------------------
 	## 1 - Site Title & Social Icons

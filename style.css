@@ -158,6 +158,7 @@ input[type="submit"]:focus,
 .entry-title,
 .menu-social,
 .navbar-nav > li > a,
+.navbar-default .navbar-nav .open .dropdown-menu > li > a,
 #secondary-menu,
 #tertiary-menu,
 .menu-social,
@@ -184,7 +185,8 @@ input[type="submit"]:focus,
 /* sm */
 @media (min-width: 768px) {
 	.site-title,
-	.site-description {
+	.site-description,
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		text-align: left;
 	}
 	.menu-social,

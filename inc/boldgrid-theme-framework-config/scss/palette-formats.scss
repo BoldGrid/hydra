@@ -44,7 +44,6 @@ $rgba_2 : rgba($palette-primary_2, 0.75);
 	.gridblock hr {
 		background: $text-contrast-palette-primary_1;
 	}
-	.menu-item a,
 	#menu-social li a,
 	.navbar-default .navbar-nav > li > a {
 		color: $text-contrast-palette-primary_1;
@@ -162,6 +161,7 @@ $rgba_2 : rgba($palette-primary_2, 0.75);
 	}
 	
 	a,
+  .menu-item a,
 	#menu-social a[href]:hover,
 	#menu-social li.current_page_item a,
 	#colophon li.current_page_item a,

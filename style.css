@@ -189,7 +189,6 @@ input[type="submit"]:focus,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		text-align: left;
 	}
-	.menu-social,
 	.navbar-nav > li > a {
 		text-align: right;
 	}
@@ -197,7 +196,8 @@ input[type="submit"]:focus,
 
 /* md */
 @media (min-width: 992px) {
-	.xs-center,
+	.menu-social,
+  .xs-center,
 	.mod-img,
 	.mod-img-circle,
 	.gridblock .p-button-primary,

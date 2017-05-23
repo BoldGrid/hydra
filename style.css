@@ -197,7 +197,7 @@ input[type="submit"]:focus,
 /* md */
 @media (min-width: 992px) {
 	.menu-social,
-  .xs-center,
+	.xs-center,
 	.mod-img,
 	.mod-img-circle,
 	.gridblock .p-button-primary,

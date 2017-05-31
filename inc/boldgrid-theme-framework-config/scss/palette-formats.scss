@@ -2,7 +2,6 @@
 # Variables
 ------------------------------------------------------------------------*/
 $rgba_1 : rgba($palette-primary_1, 0.80);
-$rgba_2 : rgba($palette-primary_2, 0.75);
 
 /*------------------------------------------------------------------------
 # Palettes
@@ -205,30 +204,6 @@ $rgba_2 : rgba($palette-primary_2, 0.75);
 	}
 	.well {
 		border: 1px solid $palette-primary_2;
-	}
-
-	/* Gallery Captions */
-	.wc-gallery-captions-showon .gallery-caption, 
-	.wc-gallery-captions-onhover .gallery-caption {
-		background: $rgba_2;
-		color: $text-contrast-palette-primary_2;
-	}
-	.wc-gallery-captions-show .gallery-caption,
-	.wc-gallery-captions-onpopup .gallery-caption  {
-		background: $palette-primary_2;
-		color: $text-contrast-palette-primary_2;
-	}
-	.wc-gallery .gallery-caption {
-		h2,
-		h3 {
-			color: $text-contrast-palette-primary_2;
-		}
-	}
-	.mfp-title {
-		h2,
-		h3 {
-			color: #fff !important;
-		}
 	}
 
 	/*-----------------------------------------------

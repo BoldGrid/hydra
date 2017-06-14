@@ -285,11 +285,11 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	&.woocommerce-page .color1-color {
 		color: $palette-primary_2 !important;
 	}
-	&.woocommerce-page .color-1-text-contrast-hover:hover, 
+	&.woocommerce-page .color-1-text-contrast-hover:hover,
 	&.woocommerce-page .color-1-text-contrast-hover:focus {
 		color: $text-contrast-palette-primary_1 !important;
 	}
-	&.woocommerce div.product .stock.out-of-stock {
+	&.woocommerce div.product span.price {
 		color: $palette-primary_2;
 	}
 	&.woocommerce div.product .stock {

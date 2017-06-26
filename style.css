@@ -125,28 +125,18 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 .mod-alpha h2 {
 	line-height: normal;
 }
-.p-button-primary,
-.p-button-secondary {
-	white-space: nowrap;
-}
 a:hover,
 a:focus,
 .site-footer a {
 	text-decoration: underline;
 }
 a,
-.link-primary,
-.link-secondary,
 .button-primary:hover,
 .button-primary:focus,
 .button-primary:active,
 .open > .dropdown-toggle.btn-primary,
-input[type="submit"]:hover,
-input[type="submit"]:focus,
 .button-secondary:hover,
 .button-secondary:active,
-.woocommerce p.buttons a.button:hover,
-.woocommerce p.buttons a.button:focus,
 .site-footer a:hover,
 .site-footer a:focus {
 	text-decoration: none;
@@ -156,7 +146,6 @@ input[type="submit"]:focus,
 .site-description,
 .call-to-action,
 .entry-title,
-.menu-social,
 .navbar-nav > li > a,
 .navbar-default .navbar-nav .open .dropdown-menu > li > a,
 #secondary-menu,
@@ -178,9 +167,6 @@ input[type="submit"]:focus,
 #footer-widget-area {
 	text-align: left;
 }
-#menu-social li a {
-	text-align: right;
-}
 
 /* sm */
 @media (min-width: 768px) {
@@ -189,6 +175,7 @@ input[type="submit"]:focus,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		text-align: left;
 	}
+	.menu-social,
 	.navbar-nav > li > a {
 		text-align: right;
 	}
@@ -196,7 +183,6 @@ input[type="submit"]:focus,
 
 /* md */
 @media (min-width: 992px) {
-	.menu-social,
 	.xs-center,
 	.mod-img,
 	.mod-img-circle,
@@ -274,8 +260,7 @@ input[type="submit"]:focus,
 ## Buttons
 -----------------------------------------------*/
 .button-primary,
-.button-secondary,
-input[type="submit"] {
+.button-secondary {
 	margin: 10px 0;
 	padding: 10px 25px;
 	background: none;
@@ -441,9 +426,10 @@ select {
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
-	background: none;
-}
+.navbar-default .navbar-nav > li > a:focus,
+.nav .open > a,
+.nav .open > a:focus,
+.nav .open > a:hover,
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
@@ -457,14 +443,6 @@ select {
 .dropdown-menu {
 	border: none;
 	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.176);
-}
-
-/* Open */
-.nav .open > a,
-.nav .open > a:focus,
-.nav .open > a:hover {
-	background: none;
-	border: none; 
 }
 
 /* sm */
@@ -498,20 +476,9 @@ select {
 .menu-social {
 	padding: 0;
 }
-.menu-social ul {
-	padding-left: 0;
-}
 .menu-social li {
 	display: inline;
 	padding-right: 10px;
-	list-style: none;
-}
-#menu-social ul {
-	padding-left: 0;
-}
-#menu-social ul li {
-	position: relative;
-	display: inline-block;
 }
 #menu-social li a {
 	display: inline-block;
@@ -589,23 +556,21 @@ blockquote,
 	background: none;
 }
 
+/* sm */
+@media (min-width: 768px) {
+	.search .jumbotron {
+		padding-left: 0;
+	}
+}
+
 /*------------------------------------------------------------------------
 # Posts
 ------------------------------------------------------------------------*/
-.widget-area {
-	margin-top: 25px;
-	padding: 25px;
-	list-style: none;
-}
 .nav-links {
 	margin: 25px 0;
 }
 
 /* Comments */
-.comment-form-comment label {
-	float: left;
-	padding-right: 15px;
-}
 .panel-footer {
 	padding: 25px 15px;
 	border-top: 1px solid transparent;
@@ -622,22 +587,6 @@ blockquote,
 	display: none;
 }
 
-/* Buttons */
-.form-submit .submit {
-	margin: 25px 0 0;
-	padding: 20px 25px;
-	border-radius: 0;
-	background: none;
-	transition: all .5s;
-}
-
-/* sm */
-@media (min-width: 768px) {
-	.search .jumbotron {
-		padding-left: 0;
-	}
-}
-
 /*------------------------------------------------------------------------
 # Plugins
 ------------------------------------------------------------------------*/
@@ -649,7 +598,6 @@ blockquote,
 	-webkit-filter: brightness(35%);
 	-ms-filter: brightness(35%);
 	filter: brightness(35%);
-
 	-moz-filter: brightness(35%);
 	-o-filter: brightness(35%);
 }

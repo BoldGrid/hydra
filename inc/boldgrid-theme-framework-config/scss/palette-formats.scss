@@ -29,14 +29,9 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
-	.comments-area .panel-footer {
-		background: $palette-primary_1;
-	}
-	.attribution-theme-mods,
 	.attribution-theme-mods a,
 	.navbar-default .navbar-toggle:hover,
 	.navbar-default .navbar-toggle:focus,
-	.comments-area .comment-content p,
 	#reviews #comments ol.commentlist li .meta {
 		color: $text-contrast-palette-primary_1;
 	}
@@ -52,7 +47,6 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 		background: $palette-primary_1;
 		color: $text-contrast-palette-primary_1;
 	}
-	.widget-area,
 	#reviews #comments ol.commentlist li .comment-text {
 		border: 1px solid $text-contrast-palette-primary_1;
 	}
@@ -74,19 +68,18 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	## 2
 	-----------------------------------------------*/
 	.button-primary,
-	input[type="submit"],
-	.form-submit .submit,
 	.pager li > a {
 		border: 1px solid $palette-primary_2;
 		color: $palette-primary_2;
 	}
+	.call-to-action .button-primary {
+		background: $palette-primary_1;
+		border-color: $palette-primary_2;
+		color: $palette-primary_2;
+	}	
 	.button-primary:hover,
 	.button-primary:focus,
 	.button-primary:active,
-	input[type="submit"]:hover,
-	input[type="submit"]:focus,
-	.form-submit .submit:hover,
-	.form-submit .submit:focus,
 	.open > .dropdown-toggle.btn-primary,
 	.pager li > a:hover,
 	.pager li > a:active,
@@ -101,17 +94,6 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 		background-color: transparent;
 		border: 1px solid $palette-primary_2;
 		color: $palette-primary_2;		
-	}
-	.call-to-action .button-primary {
-		background: $palette-primary_1;
-		border-color: $palette-primary_2;
-		color: $palette-primary_2;
-	}
-	.call-to-action .button-primary:hover,
-	.call-to-action .button-primary:focus {
-		background: $palette-primary_2;
-		border-color: $palette-primary_2;
-		color: $text-contrast-palette-primary_2;
 	}
 	.gridblock ul li:before {
 		background-color: $palette-primary_2;
@@ -169,8 +151,6 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	.mod-alpha h3,
 	.widget.well a,
 	caption,
-	.link-primary,
-	.link-secondary,
 	#menu-social li a:hover,
 	.navbar-default .navbar-nav > .active > a,
 	.navbar-default .navbar-nav > .active > a:hover,
@@ -183,7 +163,6 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	#tertiary-menu {
 		background: rgba($palette-primary_2, 0.8);
 	}
-	#menu-social a,
 	#secondary-menu a,
 	#tertiary-menu a {
 		color: $text-contrast-palette-primary_2;
@@ -225,7 +204,7 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	}
 	.button-secondary {
 		border: 1px solid $palette-primary_3;
-		color:$palette-primary_3;
+		color: $palette-primary_3;
 	}
 	.button-secondary:hover,
 	.button-secondary:active {
@@ -239,7 +218,7 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 	}	
 
 	/*-----------------------------------------------
-	## 1 - Site Title & Social Icons
+	## Site Title & Social Icons
 	-----------------------------------------------*/
 	.site-title a,
 	.site-description,
@@ -260,20 +239,12 @@ $rgba_1 : rgba($palette-primary_1, 0.80);
 			text-shadow: none;
 		}
 	}
-	&.mce-content-body {
-		background: $palette-primary_1;
-		color: $text-contrast-palette-primary_1;
-	}
-	&.error404 {
-		.site-content {
-			background: $palette-primary_1;
-			color: $text-contrast-palette-primary_1;
-		}
-	}
 	&.blog .entry-title a {
 		text-shadow: none;
 		color: $text-contrast-palette-primary_1;
 	}
+	&.mce-content-body,
+	&.error404 .site-content,	
 	&.blog .site-content,
 	&.search .site-content,
 	&.single .main,

@@ -172,6 +172,7 @@ a,
 @media (min-width: 768px) {
 	.site-title,
 	.site-description,
+	#menu-social-media li a,
 	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
 		text-align: left;
 	}

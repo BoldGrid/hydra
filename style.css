@@ -60,7 +60,7 @@ Tags: custom-background, custom-colors, custom-menu, editor-style, responsive-la
 /* sm */
 @media (min-width: 768px) {
 	.entry-content {
-		margin-top: 30%;
+		margin-top: 20%;
 	}
 	.archive .main.container-fluid > *,
 	.single .main.container-fluid > *,
@@ -293,7 +293,7 @@ a,
 }
 
 /* sm */
-@media (min-width: 600px) {
+@media (min-width: 768px) {
 	.button-primary,
 	.button-secondary {
 		display: inline;
@@ -339,7 +339,7 @@ select {
 
 /* Call to Action */
 .call-to-action {
-	margin-bottom: 40px;
+	padding-bottom: 0px;
 	padding-top: 60px;
 }
 
@@ -359,7 +359,7 @@ select {
 }
 
 /* sm */
-@media (min-width: 768px) {
+@media (min-width: 795px) {
 	.site-title {
 		margin-bottom: 5px;
 		padding-top: 0;
@@ -389,12 +389,17 @@ select {
 		padding-top: 20px;
 	}
 	.call-to-action {
-		padding-top: 130px;
+		padding-bottom: 0px;
+		padding-top: 75px;
 	}
 }
 
 /* md */
 @media (min-width: 992px) {
+	.call-to-action {
+		padding-bottom: 0px;
+		padding-top: 130px;
+	}
 	.menu-social {
 		margin-top: 8px;
 		padding: 15px 0 0;

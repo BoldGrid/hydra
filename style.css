@@ -307,8 +307,10 @@ a,
 ## Et Cetera
 -----------------------------------------------*/
 hr {
-	margin: 65px 0 50px;
+	margin-top: 65px;
+	margin-bottom: 50px;
 }
+
 .table-striped > tbody > tr:nth-of-type(2n+1),
 .pager li > a {
 	background: transparent;
@@ -509,6 +511,11 @@ select {
 	margin-bottom: 30px;
 	height: 1px;
 	border: 0;
+}
+
+.dynamic-gridblock hr {
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 /*------------------------------------------------------------------------

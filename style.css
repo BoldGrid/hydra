@@ -202,12 +202,6 @@ a,
 .page-template-default .entry-content {
 	margin-top: 0;
 }
-.hentry {
-	margin: 0 auto;
-}
-.hentry:first-child ~ .hentry {
-	margin-top: 50px;
-}
 
 /* Headings */
 .heading h3 {
@@ -574,6 +568,9 @@ blockquote,
 ------------------------------------------------------------------------*/
 .nav-links {
 	margin: 25px 0;
+}
+.post {
+	margin: 0 auto 50px;
 }
 
 /* Comments */
